@@ -7,7 +7,7 @@ The code is written in STATA .do files, which calculate and decompose the varian
 
 For further details, please refer to the Instructions.pdf file.
 
-NOTE: As of today (22/03/2019) the code that generate the core results is already functional. Once access to the data is obtained (see Instructions file for details) running the code reproduces the figures of the paper. However in the next few weeks it is likely that the code will be changed and improved.
+NOTE: As of today (22/03/2019) the code that generate the core results is already functional. Once access to the data is obtained (see Instructions file for details) running the code reproduces the figures of the paper. However, in the next few weeks expect improvements to the ipython notebooks, more detailed code comments and extra files for the "supplementary plots" folder.
 
 Any typos or other queries, please open an Issue!
 
