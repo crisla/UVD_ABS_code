@@ -32,7 +32,7 @@ saveold "./MS.dta", replace
 * 1.
 use "./MS.dta", clear
 
-keep if max_nuc<=2
+keep if max_nuc==2
 keep if nuc!=.
 
 gen n_spell_u=nuc
