@@ -2,7 +2,7 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- opened on:  20 Apr 2021, 17:48:33
+ opened on:  23 Apr 2021, 10:41:33
 
 . * The following code creates an alternative version without spells less than 15 days
 . // gen spell15=0
@@ -83,13 +83,13 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:48:44
+ paused on:  23 Apr 2021, 10:41:37
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:48:49
+resumed on:  23 Apr 2021, 10:41:39
 
 . ****** Raw, women *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -129,13 +129,13 @@ resumed on:  20 Apr 2021, 17:48:49
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:48:51
+ paused on:  23 Apr 2021, 10:41:39
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:49:05
+resumed on:  23 Apr 2021, 10:41:43
 
 . ****** LTU, men *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -175,13 +175,13 @@ resumed on:  20 Apr 2021, 17:49:05
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:49:07
+ paused on:  23 Apr 2021, 10:41:44
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:49:13
+resumed on:  23 Apr 2021, 10:41:45
 
 . ****** LTU, women *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -221,13 +221,13 @@ resumed on:  20 Apr 2021, 17:49:13
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:49:15
+ paused on:  23 Apr 2021, 10:41:46
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:49:29
+resumed on:  23 Apr 2021, 10:41:53
 
 . ****** STU, men *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -267,13 +267,13 @@ resumed on:  20 Apr 2021, 17:49:29
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:49:32
+ paused on:  23 Apr 2021, 10:41:54
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:49:42
+resumed on:  23 Apr 2021, 10:41:57
 
 . ****** STU, women *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -313,13 +313,13 @@ resumed on:  20 Apr 2021, 17:49:42
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:49:45
+ paused on:  23 Apr 2021, 10:41:58
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:49:55
+resumed on:  23 Apr 2021, 10:42:03
 
 . ****** STU+Spell Adj, men *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -359,13 +359,13 @@ resumed on:  20 Apr 2021, 17:49:55
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:49:58
+ paused on:  23 Apr 2021, 10:42:04
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:50:04
+resumed on:  23 Apr 2021, 10:42:07
 
 . ****** STU+Spell Adj, women *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -405,13 +405,13 @@ resumed on:  20 Apr 2021, 17:50:04
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:50:06
+ paused on:  23 Apr 2021, 10:42:07
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:50:30
+resumed on:  23 Apr 2021, 10:42:14
 
 . ****** STU + Recalls + Spell Adj, men *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -451,13 +451,13 @@ resumed on:  20 Apr 2021, 17:50:30
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:50:33
+ paused on:  23 Apr 2021, 10:42:15
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:50:39
+resumed on:  23 Apr 2021, 10:42:18
 
 . ****** STU + Recalls + Spell Adj, women *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -497,13 +497,105 @@ resumed on:  20 Apr 2021, 17:50:39
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:50:42
+ paused on:  23 Apr 2021, 10:42:19
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:50:56
+resumed on:  23 Apr 2021, 10:42:30
+
+. ****** NE (NO Spell Adj), men *****************************
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        mu_y |    645,852    270.4758           0   270.4758   270.4758
+       sig_y |    645,852    239820.4           0   239820.4   239820.4
+       sig_c |    645,852    98224.84           0   98224.84   98224.84
+       sig_e |    645,852    116897.9           0   116897.9   116897.9
+       sig_b |    645,852    25068.04           0   25068.04   25068.04
+-------------+---------------------------------------------------------
+      lsig_y |    645,852    3.057249           0   3.057249   3.057249
+      lsig_c |    645,852    1.644934           0   1.644934   1.644934
+      lsig_e |    645,852    .5251797           0   .5251797   .5251797
+      lsig_b |    645,852    .8871347           0   .8871347   .8871347
+      psig_c |    645,852    .4095767           0   .4095767   .4095767
+-------------+---------------------------------------------------------
+      psig_e |    645,852    .4874394           0   .4874394   .4874394
+      psig_b |    645,852    .1045284           0   .1045284   .1045284
+     plsig_c |    645,852    .5380439           0   .5380439   .5380439
+     plsig_e |    645,852    .1717818           0   .1717818   .1717818
+     plsig_b |    645,852    .2901742           0   .2901742   .2901742
+-------------+---------------------------------------------------------
+     lsig_y2 |    645,852    3.057248           0   3.057248   3.057248
+       sig_x |    645,852   -.0036607           0  -.0036607  -.0036607
+      lsig_c |    645,852    1.644934           0   1.644934   1.644934
+     lsig_e2 |    645,852    .5288376           0   .5288376   .5288376
+     lsig_b2 |    645,852    .8871372           0   .8871372   .8871372
+-------------+---------------------------------------------------------
+     lpsig_x |    645,852   -.0011974           0  -.0011974  -.0011974
+     lpsig_e |    645,852    .1729783           0   .1729783   .1729783
+     lpsig_b |    645,852    .2901751           0   .2901751   .2901751
+
+. log off
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
+  log type:  text
+ paused on:  23 Apr 2021, 10:42:30
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
+  log type:  text
+resumed on:  23 Apr 2021, 10:42:35
+
+. ****** NE (NO Spell Adj), women *****************************
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        mu_y |    479,976     412.862           0    412.862    412.862
+       sig_y |    479,976    639615.4           0   639615.4   639615.4
+       sig_c |    479,976    212215.5           0   212215.5   212215.5
+       sig_e |    479,976    386858.5           0   386858.5   386858.5
+       sig_b |    479,976    41761.74           0   41761.74   41761.74
+-------------+---------------------------------------------------------
+      lsig_y |    479,976    3.311301           0   3.311301   3.311301
+      lsig_c |    479,976    1.644934           0   1.644934   1.644934
+      lsig_e |    479,976    .8795732           0   .8795732   .8795732
+      lsig_b |    479,976    .7867938           0   .7867938   .7867938
+      psig_c |    479,976    .3317861           0   .3317861   .3317861
+-------------+---------------------------------------------------------
+      psig_e |    479,976    .6048299           0   .6048299   .6048299
+      psig_b |    479,976     .065292           0    .065292    .065292
+     plsig_c |    479,976    .4967637           0   .4967637   .4967637
+     plsig_e |    479,976    .2656277           0   .2656277   .2656277
+     plsig_b |    479,976    .2376087           0   .2376087   .2376087
+-------------+---------------------------------------------------------
+     lsig_y2 |    479,976    3.311301           0   3.311301   3.311301
+       sig_x |    479,976   -.0015762           0  -.0015762  -.0015762
+      lsig_c |    479,976    1.644934           0   1.644934   1.644934
+     lsig_e2 |    479,976    .8775753           0   .8775753   .8775753
+     lsig_b2 |    479,976    .7903681           0   .7903681   .7903681
+-------------+---------------------------------------------------------
+     lpsig_x |    479,976    -.000476           0   -.000476   -.000476
+     lpsig_e |    479,976    .2650243           0   .2650243   .2650243
+     lpsig_b |    479,976    .2386881           0   .2386881   .2386881
+
+. log off
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
+  log type:  text
+ paused on:  23 Apr 2021, 10:42:35
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
+  log type:  text
+resumed on:  23 Apr 2021, 10:42:43
 
 . ****** NE+Spell Adj, men *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -543,13 +635,13 @@ resumed on:  20 Apr 2021, 17:50:56
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:50:58
+ paused on:  23 Apr 2021, 10:42:43
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
-resumed on:  20 Apr 2021, 17:51:08
+resumed on:  23 Apr 2021, 10:42:48
 
 . ****** NE+Spell Adj, women *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -589,5 +681,5 @@ resumed on:  20 Apr 2021, 17:51:08
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex.log
   log type:  text
- paused on:  20 Apr 2021, 17:51:11
+ paused on:  23 Apr 2021, 10:42:49
 ----------------------------------------------------------------------------------------------------------------------
