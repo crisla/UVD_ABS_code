@@ -1,30 +1,26 @@
---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_pa
-> rt2.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- opened on:  27 Apr 2021, 12:04:59
+ opened on:  27 Apr 2021, 14:22:57
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_pa
-> rt2.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:04:59
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:22:57
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_pa
-> rt2.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  27 Apr 2021, 12:05:02
+resumed on:  27 Apr 2021, 14:23:00
 
-. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A befor
-> e84 before92
+. sum LLdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
- real_days_1 |    583,378     353.977    606.7065          1      12977
+      LLdays |    583,378    248.2181    363.0221          1      11786
    days_past |    583,330    453.7352     828.457          1      12550
          age |    583,378    32.30829    6.482547         25         50
        sex_d |    583,378    .5862648    .4925026          0          1
@@ -40,24 +36,51 @@ resumed on:  27 Apr 2021, 12:05:02
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:05:06
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:23:02
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  27 Apr 2021, 12:05:10
+resumed on:  27 Apr 2021, 14:23:02
 
-. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 be
-> fore92
+. sum Ldays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
- real_days_1 |    927,266    385.3261    738.7016          1      18351
+       Ldays |    583,378     353.977    606.7065          1      12977
+   days_past |    583,330    453.7352     828.457          1      12550
+         age |    583,378    32.30829    6.482547         25         50
+       sex_d |    583,378    .5862648    .4925026          0          1
+     college |    583,378    .1089585    .3115874          0          1
+-------------+---------------------------------------------------------
+     year_in |    583,378    1998.404    9.967148       1964       2013
+      past_T |    583,378    .6820723    .4656716          0          1
+      past_P |    583,378    .3119453     .463288          0          1
+      past_A |    583,378    .0055916    .0745675          0          1
+    before84 |    583,378    .1123183    .3157579          0          1
+-------------+---------------------------------------------------------
+    before92 |    583,378     .269028    .4434549          0          1
+
+. log off
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
+  log type:  text
+ paused on:  27 Apr 2021, 14:23:03
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
+  log type:  text
+resumed on:  27 Apr 2021, 14:23:07
+
+. sum Bdays days_past age sex_d college year_in past_T past_P past_A before84 before92
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+       Bdays |    927,266    385.3261    738.7016          1      18351
    days_past |    927,200    491.9146    905.7662          1      13971
          age |    927,266    32.14149    6.594687         25         50
        sex_d |    927,266    .5822752    .4931846          0          1
@@ -73,20 +96,17 @@ resumed on:  27 Apr 2021, 12:05:10
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:05:12
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:23:08
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  27 Apr 2021, 12:05:12
+resumed on:  27 Apr 2021, 14:23:08
 
-. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 be
-> fore92
+. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -106,20 +126,17 @@ resumed on:  27 Apr 2021, 12:05:12
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:05:13
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:23:10
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  27 Apr 2021, 12:05:16
+resumed on:  27 Apr 2021, 14:23:12
 
-. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 be
-> fore92
+. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -139,24 +156,21 @@ resumed on:  27 Apr 2021, 12:05:16
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:05:17
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:23:13
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  27 Apr 2021, 12:05:34
+resumed on:  27 Apr 2021, 14:23:31
 
-. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 be
-> fore92
+. sum Bdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
- real_days_1 |  1,155,700    353.1223     730.973          1      18351
+       Bdays |  1,154,591    363.1301    752.2815          1      18351
    days_past |  1,152,338     539.248    995.5933          1      14549
          age |  1,155,700    31.97252    6.692815         25         50
        sex_d |  1,155,700     .573282    .4946008          0          1
@@ -172,20 +186,17 @@ resumed on:  27 Apr 2021, 12:05:34
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:05:36
---------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:23:32
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  27 Apr 2021, 12:05:37
+resumed on:  27 Apr 2021, 14:23:33
 
-. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 be
-> fore92
+. sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -205,8 +216,7 @@ resumed on:  27 Apr 2021, 12:05:37
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.lo
-> g
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  27 Apr 2021, 12:05:38
---------------------------------------------------------------------------------------
+ paused on:  27 Apr 2021, 14:23:35
+----------------------------------------------------------------------------------------------------------------------
