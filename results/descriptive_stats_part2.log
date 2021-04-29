@@ -2,19 +2,19 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- opened on:  29 Apr 2021, 16:32:43
+ opened on:  29 Apr 2021, 19:03:11
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:32:43
+ paused on:  29 Apr 2021, 19:03:11
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:32:45
+resumed on:  29 Apr 2021, 19:03:13
 
 . sum LLdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -23,7 +23,7 @@ resumed on:  29 Apr 2021, 16:32:45
       LLdays |    583,378    248.2181    363.0221          1      11786
    days_past |    583,330    453.7352     828.457          1      12550
          age |    583,378    32.30829    6.482547         25         50
-       sex_d |    583,378    .5862648    .4925026          0          1
+       sex_d |    583,378    .4137352    .4925026          0          1
      college |    583,378    .1089585    .3115874          0          1
 -------------+---------------------------------------------------------
      year_in |    583,378    1998.404    9.967148       1964       2013
@@ -38,13 +38,13 @@ resumed on:  29 Apr 2021, 16:32:45
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:32:46
+ paused on:  29 Apr 2021, 19:03:14
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:32:46
+resumed on:  29 Apr 2021, 19:03:14
 
 . sum Ldays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -53,7 +53,7 @@ resumed on:  29 Apr 2021, 16:32:46
        Ldays |    583,378     353.977    606.7065          1      12977
    days_past |    583,330    453.7352     828.457          1      12550
          age |    583,378    32.30829    6.482547         25         50
-       sex_d |    583,378    .5862648    .4925026          0          1
+       sex_d |    583,378    .4137352    .4925026          0          1
      college |    583,378    .1089585    .3115874          0          1
 -------------+---------------------------------------------------------
      year_in |    583,378    1998.404    9.967148       1964       2013
@@ -68,13 +68,13 @@ resumed on:  29 Apr 2021, 16:32:46
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:32:46
+ paused on:  29 Apr 2021, 19:03:14
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:32:51
+resumed on:  29 Apr 2021, 19:03:18
 
 . sum Bdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -83,7 +83,7 @@ resumed on:  29 Apr 2021, 16:32:51
        Bdays |    924,208    386.1211    740.0368          1      18351
    days_past |    924,142    495.1598    914.6881          1      14549
          age |    924,208    32.13768    6.590735         25         50
-       sex_d |    924,208    .5824079    .4931625          0          1
+       sex_d |    924,208    .4175921    .4931625          0          1
      college |    924,208     .132442    .3389709          0          1
 -------------+---------------------------------------------------------
      year_in |    924,208    1997.895    10.88052       1952       2013
@@ -98,13 +98,13 @@ resumed on:  29 Apr 2021, 16:32:51
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:32:52
+ paused on:  29 Apr 2021, 19:03:19
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:32:53
+resumed on:  29 Apr 2021, 19:03:20
 
 . sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -113,7 +113,7 @@ resumed on:  29 Apr 2021, 16:32:53
  real_days_1 |    924,208    354.1303    738.1321          1      18351
    days_past |    924,142    481.6906    916.6446          1      14549
          age |    924,208    30.71043    6.093664         25         50
-       sex_d |    924,208    .5824079    .4931625          0          1
+       sex_d |    924,208    .4175921    .4931625          0          1
      college |    924,208     .132442    .3389709          0          1
 -------------+---------------------------------------------------------
      year_in |    924,208    1996.467    10.98532       1952       2013
@@ -128,13 +128,13 @@ resumed on:  29 Apr 2021, 16:32:53
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:32:54
+ paused on:  29 Apr 2021, 19:03:21
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:32:57
+resumed on:  29 Apr 2021, 19:03:23
 
 . sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -143,7 +143,7 @@ resumed on:  29 Apr 2021, 16:32:57
  real_days_1 |  1,095,058    290.4843    684.2801          1      18351
    days_past |  1,091,823    501.4177    972.5149          1      14549
          age |  1,095,058    30.35788    6.092584         25         50
-       sex_d |  1,095,058    .5731422    .4946215          0          1
+       sex_d |  1,095,058    .4268578    .4946215          0          1
      college |  1,095,058    .1406757    .3476868          0          1
 -------------+---------------------------------------------------------
      year_in |  1,095,058    1995.792    11.10179       1952       2013
@@ -158,13 +158,13 @@ resumed on:  29 Apr 2021, 16:32:57
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:32:58
+ paused on:  29 Apr 2021, 19:03:27
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:33:07
+resumed on:  29 Apr 2021, 19:03:34
 
 . sum Bdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -173,7 +173,7 @@ resumed on:  29 Apr 2021, 16:33:07
        Bdays |  1,154,591    363.1301    752.2815          1      18351
    days_past |  1,152,338     539.248    995.5933          1      14549
          age |  1,155,700    31.97252    6.692815         25         50
-       sex_d |  1,155,700     .573282    .4946008          0          1
+       sex_d |  1,155,700     .426718    .4946008          0          1
      college |  1,155,700    .1414519    .3484873          0          1
 -------------+---------------------------------------------------------
      year_in |  1,155,700    1997.265    11.23843       1952       2013
@@ -188,13 +188,13 @@ resumed on:  29 Apr 2021, 16:33:07
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:33:08
+ paused on:  29 Apr 2021, 19:03:35
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
-resumed on:  29 Apr 2021, 16:33:10
+resumed on:  29 Apr 2021, 19:03:37
 
 . sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -203,7 +203,7 @@ resumed on:  29 Apr 2021, 16:33:10
  real_days_1 |  1,155,700    295.4518    706.7723          1      18351
    days_past |  1,152,338    517.6939    990.9679          1      14549
          age |  1,155,700    30.18505    6.061382         25         50
-       sex_d |  1,155,700     .573282    .4946008          0          1
+       sex_d |  1,155,700     .426718    .4946008          0          1
      college |  1,155,700    .1414519    .3484873          0          1
 -------------+---------------------------------------------------------
      year_in |  1,155,700    1995.478    11.25546       1952       2013
@@ -218,5 +218,5 @@ resumed on:  29 Apr 2021, 16:33:10
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2.log
   log type:  text
- paused on:  29 Apr 2021, 16:33:11
+ paused on:  29 Apr 2021, 19:03:37
 ----------------------------------------------------------------------------------------------------------------------
