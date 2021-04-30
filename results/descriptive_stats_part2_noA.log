@@ -2,19 +2,19 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- opened on:  29 Apr 2021, 19:05:02
+ opened on:  30 Apr 2021, 12:48:30
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:02
+ paused on:  30 Apr 2021, 12:48:30
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:05
+resumed on:  30 Apr 2021, 12:48:36
 
 . sum LLdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -38,13 +38,13 @@ resumed on:  29 Apr 2021, 19:05:05
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:05
+ paused on:  30 Apr 2021, 12:48:37
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:05
+resumed on:  30 Apr 2021, 12:48:37
 
 . sum Ldays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -68,13 +68,13 @@ resumed on:  29 Apr 2021, 19:05:05
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:05
+ paused on:  30 Apr 2021, 12:48:38
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:09
+resumed on:  30 Apr 2021, 12:48:44
 
 . sum Bdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -98,13 +98,13 @@ resumed on:  29 Apr 2021, 19:05:09
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:09
+ paused on:  30 Apr 2021, 12:48:47
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:10
+resumed on:  30 Apr 2021, 12:48:48
 
 . sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -128,13 +128,13 @@ resumed on:  29 Apr 2021, 19:05:10
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:10
+ paused on:  30 Apr 2021, 12:48:52
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:12
+resumed on:  30 Apr 2021, 12:48:55
 
 . sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -158,13 +158,13 @@ resumed on:  29 Apr 2021, 19:05:12
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:13
+ paused on:  30 Apr 2021, 12:49:00
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:19
+resumed on:  30 Apr 2021, 12:49:11
 
 . sum Bdays days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -188,13 +188,13 @@ resumed on:  29 Apr 2021, 19:05:19
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:20
+ paused on:  30 Apr 2021, 12:49:13
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
-resumed on:  29 Apr 2021, 19:05:21
+resumed on:  30 Apr 2021, 12:49:14
 
 . sum real_days_1 days_past age sex_d college year_in past_T past_P past_A before84 before92
 
@@ -218,5 +218,5 @@ resumed on:  29 Apr 2021, 19:05:21
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_part2_noA.log
   log type:  text
- paused on:  29 Apr 2021, 19:05:21
+ paused on:  30 Apr 2021, 12:49:17
 ----------------------------------------------------------------------------------------------------------------------
