@@ -4,10 +4,12 @@
 * Composition II
 ****************************************************
 
-log using ./results/descriptive_stats_part2.log, replace
+// log using ./results/descriptive_stats84.log, replace
+log using ./results/descriptive_stats96.log, replace
 log off
 
-use "./MS.dta", clear
+use "./MS84.dta", clear
+// use "./MS96.dta", clear
 
 gen before84 =1 if year_in<1985
 replace before84 =0 if before84==.
@@ -86,7 +88,8 @@ log off
 
 * STU + Spell Adj + recalls
 ****************************
-use "./MS_recalls.dta", clear
+use "./MS84_recalls.dta", clear
+// use "./MS96_recalls.dta", clear
 
 gen before84 =1 if year_in<1985
 replace before84 =0 if before84==.
@@ -120,7 +123,8 @@ log off
 * NE - NO Spell Adj
 ************************
 
-use "./MS_NE.dta", clear
+use "./MS84_NE.dta", clear
+// use "./MS96_NE.dta", clear
 
 gen before84 =1 if year_in<1985
 replace before84 =0 if before84==.

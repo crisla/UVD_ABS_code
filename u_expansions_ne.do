@@ -56,7 +56,7 @@ by id: replace recall=0 if recall==.
 * Self-Employment:
 * -----------------------------------------------------
 by id: gen self_emp = 0
-by id: replace self_emp = 1 if U_ghost==1&state[_n-1]=="A"
+by id: replace self_emp = 1 if U_ghost==1&state=="A"
 
 * Quits 
 * -----------------------------------------
@@ -101,10 +101,19 @@ drop if LLdays<=0
 drop if Ldays <= 0
 drop if days<=0
 
-drop if age<25|age>50
 sort id jobcount dtin dtout
 by id: gen state_future = state[_n+1]
-by id: gen state_past = state[_n-1]
+by id: gen state_past = state[_n-1] if state == state2
+by id: replace state_past = state if state != state2 & U_ghost == 1
+
+by id: gen days_past = days[_n-1] if state == state2
+by id: replace days_past = days if state != state2 & U_ghost == 1
+
+gen state_past_likely = state_past
+replace state_past_likely = "T" if days_past<365&state_past=="P"&year(dtin)<1995
+
+* Age restriction
+drop if age<25|age>50
 
 *-*-*-*-*-*-*-*- Censored: belongs to Lower Bound -*-*-*-*-*-*-*-*-*-
 

@@ -17,14 +17,17 @@ sort id jobcount dtin
 * Prep part 1: apply unemployment expansions
 sort id jobcount dtin
 quietly do  "./u_expansions.do"
-// * Sample selection
-// drop if dtin >= td(01jan2008)
+
+// * Sample selection -1984
+// drop if (dtin < td(01jan1984)&state==state2)| (dtout < td(01jan1984)&state!=state2)
+* Sample selection -1996
+drop if (dtin < td(01jan1996)&state==state2)| (dtout < td(01jan1996)&state!=state2)
 
 * Prep part 2: count spells
 quietly do  "./counting_spells.do"
 
 * Save
-saveold "./MS.dta", replace
+saveold "./MS84.dta", replace
 
 * Same but with recalls
 *************************************************************************
@@ -41,14 +44,17 @@ sort id jobcount dtin
 * Prep part 1: apply unemployment expansions
 sort id jobcount dtin
 quietly do  "./u_expansions_recalls.do"
-// * Sample selection
-// drop if dtin >= td(01jan2008)
-//
+
+// * Sample selection -1984
+// drop if (dtin < td(01jan1984)&state==state2)| (dtout < td(01jan1984)&state!=state2)
+* Sample selection -1996
+drop if (dtin < td(01jan1996)&state==state2)| (dtout < td(01jan1996)&state!=state2)
+
 * Prep part 2: count spells
 quietly do  "./counting_spells.do"
 //
 // * Save
-saveold "./MS_recalls.dta", replace
+saveold "./MS84_recalls.dta", replace
 
 // * Robustness 15
 // *************************************************************************
@@ -61,7 +67,7 @@ saveold "./MS_recalls.dta", replace
 // log close
 // translate "./ind15.smcl" "./ind15.log",replace
 
-// saveold "./MSalt.dta", replace
+// saveold "./MS84alt.dta", replace
 
 * Non-Employment
 *************************************************************************
@@ -79,26 +85,30 @@ replace age = year(dtin) - year(dtbirth)
 
 sort id jobcount dtin
 quietly do  "./u_expansions_ne.do"
-// * Sample selection
-// drop if dtin >= td(01jan2008)
+
+// * Sample selection -1984
+// drop if (dtin < td(01jan1984)&state==state2)| (dtout < td(01jan1984)&state!=state2)
+* Sample selection -1996
+drop if (dtin < td(01jan1996)&state==state2)| (dtout < td(01jan1996)&state!=state2)
 
 * Prep part 2: count spells
 quietly do  "./counting_spells.do"
 
 * Save
-saveold "./MS_NE.dta", replace
+saveold "./MS84_NE.dta", replace
 
 ********************************************************************************
 // PART 2: Decomposition
 ********************************************************************************
 
-log using ./results/all_results.log, replace
+// log using ./results/all_results84.log, replace
+log using ./results/all_results96.log, replace
 log off
 
 // calculating Lower Lower (Raw data)
 ********************************************************************************
 
-use "./MS.dta", clear
+use "./MS84.dta", clear
 
 keep if max_nuc==2
 keep if nuc!=.
@@ -124,7 +134,7 @@ log off
 // calculating Lower (LTU Expansion)
 ********************************************************************************
 * 1.
-use "./MS.dta", clear
+use "./MS84.dta", clear
 
 keep if max_nuc==2
 keep if nuc!=.
@@ -149,7 +159,7 @@ log off
 ********************************************************************************
 // calculating Lower+ (STU Expansion)
 ********************************************************************************
-use "./MS.dta", clear
+use "./MS84.dta", clear
 
 gen nuc2 = nuc
 by id: replace nuc2 = nup if nuc==.&max_nuc<2
@@ -186,7 +196,7 @@ log off
 ********************************************************************************
 // calculating uncensored (Spell Number correction + STU)
 ********************************************************************************
-use "./MS.dta", clear
+use "./MS84.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3
@@ -214,7 +224,7 @@ log off
 
 // No Spell correction
 *******************************************
-use "./MS_NE.dta", clear
+use "./MS84_NE.dta", clear
 
 gen nuc2 = nuc
 by id: replace nuc2 = nup if nuc==.&max_nuc<2
@@ -250,7 +260,7 @@ log off
 // NE + Spell correction
 *******************************************
 
-use "./MS_NE.dta", clear
+use "./MS84_NE.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3
@@ -269,7 +279,7 @@ log off
 // STU + Recalls + Spell correction
 *******************************************
 
-use "./MS_recalls.dta", clear
+use "./MS84_recalls.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3

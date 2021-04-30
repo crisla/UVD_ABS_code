@@ -81,10 +81,11 @@ replace short_emp = 1 if emp_spell<360 & year(dtout)>=1992 & (state=="T"|state==
 replace short_emp = 1 if emp_spell<180 & year(dtout)<1992 & (state=="T"|state=="P")
 sort id jobcount dtin
 
-* Trim recalls etc
+* Trim self-employment, recalls etc
 * -----------------------------------------------------
 replace U_ghost = 0 if U_ghost==1&recall==1
 replace U_ghost = 0 if U_ghost==1&short_emp==0&self_emp==0&quit==0
+replace U_ghost = 0 if U_ghost==1&self_emp==1
 
 * Count Gaps too
 * -----------------------------------------------------

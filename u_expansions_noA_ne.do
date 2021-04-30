@@ -24,7 +24,7 @@ sort id jobcount dtin dtout
 
 * *****
 
-sort id jobcount dtin dtout
+sort id jobcount dtin
 by id: gen diff_days = dtin[_n+1]-dtout[_n]
 replace diff_days = 0 if diff_days==.
 
@@ -36,8 +36,8 @@ gen Ldays = LLdays
 by id: replace Ldays  = Ldays + diff_days if state[_n]=="U"&state[_n+1]!="U"
 
 sort id jobcount 
-gen real_days_1 = Ldays
-// by id: replace real_days_1  = real_days_1 + diff_days if state[_n]=="U"&state[_n+1]!="U"&diff_days>0
+gen real_days_1 = days
+by id: replace real_days_1  = real_days_1 + diff_days if state[_n]=="U"&state[_n+1]!="U"&diff_days>0
 
 *-*-*-*-*-*-*-*- Count gaps between employment too -*-*-*-*-*-*-*-*
 
@@ -80,11 +80,12 @@ gen short_emp = 0
 replace short_emp = 1 if emp_spell<360 & year(dtout)>=1992 & (state=="T"|state=="P")
 replace short_emp = 1 if emp_spell<180 & year(dtout)<1992 & (state=="T"|state=="P")
 sort id jobcount dtin
-
-* Trim recalls etc
+//
+* Trim self-employment only
 * -----------------------------------------------------
-replace U_ghost = 0 if U_ghost==1&recall==1
-replace U_ghost = 0 if U_ghost==1&short_emp==0&self_emp==0&quit==0
+// replace U_ghost = 0 if U_ghost==1&recall==1
+// replace U_ghost = 0 if U_ghost==1&short_emp==0&self_emp==0&quit==0
+replace U_ghost = 0 if self_emp==1
 
 * Count Gaps too
 * -----------------------------------------------------
@@ -124,4 +125,3 @@ replace censored = 0 if censored==.
 
 by id: gen upper=1 if state2[_n]=="U"&state_future!="U"&state_future!=""
 replace upper=0 if upper==.
-
