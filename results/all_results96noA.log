@@ -2,19 +2,19 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- opened on:  30 Apr 2021, 12:42:05
+ opened on:   3 May 2021, 16:26:38
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:42:05
+ paused on:   3 May 2021, 16:26:38
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:42:18
+resumed on:   3 May 2021, 16:26:56
 
 . ****** Raw *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -54,13 +54,13 @@ resumed on:  30 Apr 2021, 12:42:18
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:42:21
+ paused on:   3 May 2021, 16:26:57
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:42:26
+resumed on:   3 May 2021, 16:27:04
 
 . ****** LTU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -100,13 +100,13 @@ resumed on:  30 Apr 2021, 12:42:26
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:42:28
+ paused on:   3 May 2021, 16:27:06
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:42:36
+resumed on:   3 May 2021, 16:27:24
 
 . ****** STU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -146,13 +146,13 @@ resumed on:  30 Apr 2021, 12:42:36
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:42:38
+ paused on:   3 May 2021, 16:27:27
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:42:47
+resumed on:   3 May 2021, 16:27:43
 
 . ****** STU+Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -192,13 +192,13 @@ resumed on:  30 Apr 2021, 12:42:47
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:42:49
+ paused on:   3 May 2021, 16:27:45
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:46:01
+resumed on:   3 May 2021, 16:28:14
 
 . ****** NE (NO Spell Adj) *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -238,13 +238,13 @@ resumed on:  30 Apr 2021, 12:46:01
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:46:03
+ paused on:   3 May 2021, 16:28:16
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:46:11
+resumed on:   3 May 2021, 16:28:32
 
 . ****** NE + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -284,13 +284,13 @@ resumed on:  30 Apr 2021, 12:46:11
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:46:13
+ paused on:   3 May 2021, 16:28:35
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
-resumed on:  30 Apr 2021, 12:46:29
+resumed on:   3 May 2021, 16:29:07
 
 . ****** STU + Recalls + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -298,37 +298,37 @@ resumed on:  30 Apr 2021, 12:46:29
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
-        mu_y |    794,578    171.7619           0   171.7619   171.7619
-       sig_y |    794,578    122770.4           0   122770.4   122770.4
-       sig_c |    794,578    41862.95           0   41862.95   41862.95
-       sig_e |    794,578    68546.49           0   68546.49   68546.49
-       sig_b |    794,578    12360.96           0   12360.96   12360.96
+        mu_y |    975,326    242.2909           0   242.2909   242.2909
+       sig_y |    975,326    311366.9           0   311366.9   311366.9
+       sig_c |    975,326    90433.12           0   90433.12   90433.12
+       sig_e |    975,326    189205.2           0   189205.2   189205.2
+       sig_b |    975,326    31728.56           0   31728.56   31728.56
 -------------+---------------------------------------------------------
-      lsig_y |    794,578    3.286545           0   3.286545   3.286545
-      lsig_c |    794,578    1.644934           0   1.644934   1.644934
-      lsig_e |    794,578     .929582           0    .929582    .929582
-      lsig_b |    794,578    .7120288           0   .7120288   .7120288
-      psig_c |    794,578    .3409857           0   .3409857   .3409857
+      lsig_y |    975,326    3.718023           0   3.718023   3.718023
+      lsig_c |    975,326    1.644934           0   1.644934   1.644934
+      lsig_e |    975,326      1.1543           0     1.1543     1.1543
+      lsig_b |    975,326    .9187892           0   .9187892   .9187892
+      psig_c |    975,326    .2904391           0   .2904391   .2904391
 -------------+---------------------------------------------------------
-      psig_e |    794,578    .5583308           0   .5583308   .5583308
-      psig_b |    794,578    .1006835           0   .1006835   .1006835
-     plsig_c |    794,578    .5005056           0   .5005056   .5005056
-     plsig_e |    794,578    .2828448           0   .2828448   .2828448
-     plsig_b |    794,578    .2166497           0   .2166497   .2166497
+      psig_e |    975,326      .60766           0     .60766     .60766
+      psig_b |    975,326    .1019009           0   .1019009   .1019009
+     plsig_c |    975,326    .4424217           0   .4424217   .4424217
+     plsig_e |    975,326    .3104606           0   .3104606   .3104606
+     plsig_b |    975,326    .2471177           0   .2471177   .2471177
 -------------+---------------------------------------------------------
-     lsig_y2 |    794,578    3.286546           0   3.286546   3.286546
-       sig_x |    794,578    .0125175           0   .0125175   .0125175
-      lsig_c |    794,578    1.644934           0   1.644934   1.644934
-     lsig_e2 |    794,578    .9045452           0   .9045452   .9045452
-     lsig_b2 |    794,578    .7245488           0   .7245488   .7245488
+     lsig_y2 |    975,326    3.718024           0   3.718024   3.718024
+       sig_x |    975,326    .0197163           0   .0197163   .0197163
+      lsig_c |    975,326    1.644934           0   1.644934   1.644934
+     lsig_e2 |    975,326    1.114866           0   1.114866   1.114866
+     lsig_b2 |    975,326     .938508           0    .938508    .938508
 -------------+---------------------------------------------------------
-     lpsig_x |    794,578    .0038087           0   .0038087   .0038087
-     lpsig_e |    794,578    .2752267           0   .2752267   .2752267
-     lpsig_b |    794,578    .2204591           0   .2204591   .2204591
+     lpsig_x |    975,326    .0053029           0   .0053029   .0053029
+     lpsig_e |    975,326    .2998543           0   .2998543   .2998543
+     lpsig_b |    975,326    .2524212           0   .2524212   .2524212
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
   log type:  text
- paused on:  30 Apr 2021, 12:46:31
+ paused on:   3 May 2021, 16:29:11
 ----------------------------------------------------------------------------------------------------------------------

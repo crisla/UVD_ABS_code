@@ -2,7 +2,7 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- opened on:  23 Apr 2021, 11:41:12
+ opened on:  23 Apr 2021, 12:36:30
 
 . ********************************************************************************
 . *                                                                              *
@@ -13,13 +13,13 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:41:12
+ paused on:  23 Apr 2021, 12:36:30
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:41:13
+resumed on:  23 Apr 2021, 12:36:31
 
 . ****** RAW, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -59,13 +59,13 @@ resumed on:  23 Apr 2021, 11:41:13
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:41:13
+ paused on:  23 Apr 2021, 12:36:31
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:41:15
+resumed on:  23 Apr 2021, 12:36:32
 
 . ****** LTU, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -105,13 +105,13 @@ resumed on:  23 Apr 2021, 11:41:15
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:41:15
+ paused on:  23 Apr 2021, 12:36:32
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:41:18
+resumed on:  23 Apr 2021, 12:36:34
 
 . ****** STU, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -151,13 +151,13 @@ resumed on:  23 Apr 2021, 11:41:18
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:41:18
+ paused on:  23 Apr 2021, 12:36:34
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:41:20
+resumed on:  23 Apr 2021, 12:36:36
 
 . ****** STU + Spell correction, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -197,13 +197,13 @@ resumed on:  23 Apr 2021, 11:41:20
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:41:21
+ paused on:  23 Apr 2021, 12:36:37
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:41:27
+resumed on:  23 Apr 2021, 12:36:41
 
 . ****** NE - NO spell correction ,2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -243,13 +243,13 @@ resumed on:  23 Apr 2021, 11:41:27
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:41:28
+ paused on:  23 Apr 2021, 12:36:42
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:13
+resumed on:  23 Apr 2021, 12:40:03
 
 . ****** STU + Recalls + Spell Adj, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -289,13 +289,13 @@ resumed on:  23 Apr 2021, 11:45:13
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:14
+ paused on:  23 Apr 2021, 12:40:03
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:19
+resumed on:  23 Apr 2021, 12:40:06
 
 . ****** NE + Spell correction, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -335,13 +335,13 @@ resumed on:  23 Apr 2021, 11:45:19
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:19
+ paused on:  23 Apr 2021, 12:40:07
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:21
+resumed on:  23 Apr 2021, 12:40:08
 
 . ****** RAW, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -381,13 +381,13 @@ resumed on:  23 Apr 2021, 11:45:21
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:21
+ paused on:  23 Apr 2021, 12:40:09
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:24
+resumed on:  23 Apr 2021, 12:40:10
 
 . ****** LTU, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -427,13 +427,13 @@ resumed on:  23 Apr 2021, 11:45:24
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:24
+ paused on:  23 Apr 2021, 12:40:10
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:28
+resumed on:  23 Apr 2021, 12:40:14
 
 . ****** STU, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -473,13 +473,13 @@ resumed on:  23 Apr 2021, 11:45:28
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:29
+ paused on:  23 Apr 2021, 12:40:14
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:32
+resumed on:  23 Apr 2021, 12:40:16
 
 . ****** STU + Spell correction, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -519,13 +519,13 @@ resumed on:  23 Apr 2021, 11:45:32
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:33
+ paused on:  23 Apr 2021, 12:40:17
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:45:38
+resumed on:  23 Apr 2021, 12:40:21
 
 . ****** NE - NO spell correction, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -565,13 +565,13 @@ resumed on:  23 Apr 2021, 11:45:38
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:45:39
+ paused on:  23 Apr 2021, 12:40:22
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:49:21
+resumed on:  23 Apr 2021, 12:43:59
 
 . ****** STU + Recalls + Spell Adj, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -611,13 +611,13 @@ resumed on:  23 Apr 2021, 11:49:21
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:49:22
+ paused on:  23 Apr 2021, 12:44:00
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
-resumed on:  23 Apr 2021, 11:49:25
+resumed on:  23 Apr 2021, 12:44:03
 
 . ****** NE + Spell correction, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -657,5 +657,5 @@ resumed on:  23 Apr 2021, 11:49:25
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/BC_all.log
   log type:  text
- paused on:  23 Apr 2021, 11:49:26
+ paused on:  23 Apr 2021, 12:44:04
 ----------------------------------------------------------------------------------------------------------------------
