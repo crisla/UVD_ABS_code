@@ -1,24 +1,24 @@
-------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- opened on:   4 May 2021, 14:23:02
+ opened on:   7 May 2021, 14:18:47
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:23:02
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:18:47
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:23:14
+resumed on:   7 May 2021, 14:18:58
 
 . ****** Raw *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -54,17 +54,17 @@ resumed on:   4 May 2021, 14:23:14
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:23:17
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:19:01
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:23:27
+resumed on:   7 May 2021, 14:19:13
 
 . ****** LTU *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -100,17 +100,17 @@ resumed on:   4 May 2021, 14:23:27
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:23:30
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:19:16
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:23:50
+resumed on:   7 May 2021, 14:19:34
 
 . ****** STU *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -146,17 +146,17 @@ resumed on:   4 May 2021, 14:23:50
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:23:53
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:19:37
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:24:07
+resumed on:   7 May 2021, 14:19:51
 
 . ****** STU+Spell Adj *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -192,17 +192,17 @@ resumed on:   4 May 2021, 14:24:07
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:24:10
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:19:54
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:24:35
+resumed on:   7 May 2021, 14:20:19
 
 . ****** NE (NO Spell Adj) *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -238,17 +238,17 @@ resumed on:   4 May 2021, 14:24:35
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:24:39
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:20:24
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:25:00
+resumed on:   7 May 2021, 14:20:42
 
 . ****** NE + Spell Adj *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -284,17 +284,17 @@ resumed on:   4 May 2021, 14:25:00
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:25:03
-------------------------------------------------------------------------------------------------
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:20:45
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
-resumed on:   4 May 2021, 14:25:19
+resumed on:   7 May 2021, 14:21:05
 
 . ****** STU + Recalls + Spell Adj *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsi
-> g_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -330,5 +330,51 @@ resumed on:   4 May 2021, 14:25:19
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
   log type:  text
- paused on:   4 May 2021, 14:25:23
-------------------------------------------------------------------------------------------------
+ paused on:   7 May 2021, 14:21:08
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
+  log type:  text
+resumed on:   7 May 2021, 14:21:26
+
+. ****** STU + Blanks + Spell Adj *****************************
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
+> g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        mu_y |    731,216    208.1506           0   208.1506   208.1506
+       sig_y |    731,216    160439.9           0   160439.9   160439.9
+       sig_c |    731,216    62529.88           0   62529.88   62529.88
+       sig_e |    731,216    78706.55           0   78706.55   78706.55
+       sig_b |    731,216    19203.44           0   19203.44   19203.44
+-------------+---------------------------------------------------------
+      lsig_y |    731,216    3.000978           0   3.000978   3.000978
+      lsig_c |    731,216    1.644934           0   1.644934   1.644934
+      lsig_e |    731,216    .7425462           0   .7425462   .7425462
+      lsig_b |    731,216    .6134984           0   .6134984   .6134984
+      psig_c |    731,216    .3897403           0   .3897403   .3897403
+-------------+---------------------------------------------------------
+      psig_e |    731,216    .4905672           0   .4905672   .4905672
+      psig_b |    731,216    .1196925           0   .1196925   .1196925
+     plsig_c |    731,216    .5481326           0   .5481326   .5481326
+     plsig_e |    731,216    .2474347           0   .2474347   .2474347
+     plsig_b |    731,216    .2044328           0   .2044328   .2044328
+-------------+---------------------------------------------------------
+     lsig_y2 |    731,216    3.000977           0   3.000977   3.000977
+       sig_x |    731,216    .1835754           0   .1835754   .1835754
+      lsig_c |    731,216    1.644934           0   1.644934   1.644934
+     lsig_e2 |    731,216    .6575333           0   .6575333   .6575333
+     lsig_b2 |    731,216    .5149343           0   .5149343   .5149343
+-------------+---------------------------------------------------------
+     lpsig_x |    731,216    .0611719           0   .0611719   .0611719
+     lpsig_e |    731,216    .2191064           0   .2191064   .2191064
+     lpsig_b |    731,216    .1715889           0   .1715889   .1715889
+
+. log off
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x.log
+  log type:  text
+ paused on:   7 May 2021, 14:21:29
+----------------------------------------------------------------------------------------------------------------------

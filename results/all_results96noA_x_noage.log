@@ -1,20 +1,20 @@
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- opened on:   7 May 2021, 13:46:27
+ opened on:  10 May 2021, 11:37:26
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:46:27
+ paused on:  10 May 2021, 11:37:26
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:46:32
+resumed on:  10 May 2021, 11:37:51
 
 . ****** Raw *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -41,26 +41,26 @@ resumed on:   7 May 2021, 13:46:32
      plsig_b |    430,272    .1953381           0   .1953381   .1953381
 -------------+---------------------------------------------------------
      lsig_y2 |    430,272     1.27499           0    1.27499    1.27499
-       sig_x |    430,272     .014083           0    .014083    .014083
+       sig_x |    430,272    .0465348           0   .0465348   .0465348
       lsig_c |    430,272    1.644934           0   1.644934   1.644934
-     lsig_e2 |    430,272   -.6471662           0  -.6471662  -.6471662
-     lsig_b2 |    430,272    .2631393           0   .2631393   .2631393
+     lsig_e2 |    430,272   -.6665179           0  -.6665179  -.6665179
+     lsig_b2 |    430,272    .2500393           0   .2500393   .2500393
 -------------+---------------------------------------------------------
-     lpsig_x |    430,272    .0110456           0   .0110456   .0110456
-     lpsig_e |    430,272   -.5075852           0  -.5075852  -.5075852
-     lpsig_b |    430,272    .2063854           0   .2063854   .2063854
+     lpsig_x |    430,272    .0364981           0   .0364981   .0364981
+     lpsig_e |    430,272   -.5227632           0  -.5227632  -.5227632
+     lpsig_b |    430,272    .1961107           0   .1961107   .1961107
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:46:34
+ paused on:  10 May 2021, 11:37:56
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:46:39
+resumed on:  10 May 2021, 11:38:06
 
 . ****** LTU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -87,26 +87,26 @@ resumed on:   7 May 2021, 13:46:39
      plsig_b |    430,272    .2307978           0   .2307978   .2307978
 -------------+---------------------------------------------------------
      lsig_y2 |    430,272    1.464209           0   1.464209   1.464209
-       sig_x |    430,272     .009472           0    .009472    .009472
+       sig_x |    430,272    .0506034           0   .0506034   .0506034
       lsig_c |    430,272    1.644934           0   1.644934   1.644934
-     lsig_e2 |    430,272   -.5376064           0  -.5376064  -.5376064
-     lsig_b2 |    430,272    .3474089           0   .3474089   .3474089
+     lsig_e2 |    430,272   -.5591305           0  -.5591305  -.5591305
+     lsig_b2 |    430,272    .3278017           0   .3278017   .3278017
 -------------+---------------------------------------------------------
-     lpsig_x |    430,272     .006469           0    .006469    .006469
-     lpsig_e |    430,272   -.3671651           0  -.3671651  -.3671651
-     lpsig_b |    430,272    .2372673           0   .2372673   .2372673
+     lpsig_x |    430,272    .0345602           0   .0345602   .0345602
+     lpsig_e |    430,272   -.3818654           0  -.3818654  -.3818654
+     lpsig_b |    430,272    .2238764           0   .2238764   .2238764
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:46:42
+ paused on:  10 May 2021, 11:38:09
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:46:59
+resumed on:  10 May 2021, 11:38:24
 
 . ****** STU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -133,26 +133,26 @@ resumed on:   7 May 2021, 13:46:59
      plsig_b |    656,600    .1846244           0   .1846244   .1846244
 -------------+---------------------------------------------------------
      lsig_y2 |    656,600    2.272735           0   2.272735   2.272735
-       sig_x |    656,600    .0018387           0   .0018387   .0018387
+       sig_x |    656,600    .1014018           0   .1014018   .1014018
       lsig_c |    656,600    1.644934           0   1.644934   1.644934
-     lsig_e2 |    656,600    .2045208           0   .2045208   .2045208
-     lsig_b2 |    656,600    .4214418           0   .4214418   .4214418
+     lsig_e2 |    656,600    .1508276           0   .1508276   .1508276
+     lsig_b2 |    656,600    .3755718           0   .3755718   .3755718
 -------------+---------------------------------------------------------
-     lpsig_x |    656,600     .000809           0    .000809    .000809
-     lpsig_e |    656,600    .0899888           0   .0899888   .0899888
-     lpsig_b |    656,600    .1854337           0   .1854337   .1854337
+     lpsig_x |    656,600    .0446166           0   .0446166   .0446166
+     lpsig_e |    656,600    .0663639           0   .0663639   .0663639
+     lpsig_b |    656,600     .165251           0    .165251    .165251
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:47:02
+ paused on:  10 May 2021, 11:38:27
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:47:13
+resumed on:  10 May 2021, 11:38:46
 
 . ****** STU+Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -179,26 +179,26 @@ resumed on:   7 May 2021, 13:47:13
      plsig_b |    656,600    .1693985           0   .1693985   .1693985
 -------------+---------------------------------------------------------
      lsig_y2 |    656,600    2.846325           0   2.846325   2.846325
-       sig_x |    656,600    .0146832           0   .0146832   .0146832
+       sig_x |    656,600    .1479328           0   .1479328   .1479328
       lsig_c |    656,600    1.644934           0   1.644934   1.644934
-     lsig_e2 |    656,600    .6898609           0   .6898609   .6898609
-     lsig_b2 |    656,600    .4968467           0   .4968467   .4968467
+     lsig_e2 |    656,600     .629459           0    .629459    .629459
+     lsig_b2 |    656,600    .4239991           0   .4239991   .4239991
 -------------+---------------------------------------------------------
-     lpsig_x |    656,600    .0051587           0   .0051587   .0051587
-     lpsig_e |    656,600     .242369           0    .242369    .242369
-     lpsig_b |    656,600    .1745573           0   .1745573   .1745573
+     lpsig_x |    656,600    .0519733           0   .0519733   .0519733
+     lpsig_e |    656,600     .221148           0    .221148    .221148
+     lpsig_b |    656,600    .1489637           0   .1489637   .1489637
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:47:16
+ paused on:  10 May 2021, 11:38:49
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:47:36
+resumed on:  10 May 2021, 11:39:18
 
 . ****** NE (NO Spell Adj) *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -225,26 +225,26 @@ resumed on:   7 May 2021, 13:47:36
      plsig_b |    844,674    .2496397           0   .2496397   .2496397
 -------------+---------------------------------------------------------
      lsig_y2 |    844,674    2.888282           0   2.888282   2.888282
-       sig_x |    844,674    -.001395           0   -.001395   -.001395
+       sig_x |    844,674    .1100957           0   .1100957   .1100957
       lsig_c |    844,674    1.644934           0   1.644934   1.644934
-     lsig_e2 |    844,674    .5233611           0   .5233611   .5233611
-     lsig_b2 |    844,674    .7213817           0   .7213817   .7213817
+     lsig_e2 |    844,674    .4655725           0   .4655725   .4655725
+     lsig_b2 |    844,674    .6676795           0   .6676795   .6676795
 -------------+---------------------------------------------------------
-     lpsig_x |    844,674    -.000483           0   -.000483   -.000483
-     lpsig_e |    844,674    .1812015           0   .1812015   .1812015
-     lpsig_b |    844,674    .2497615           0   .2497615   .2497615
+     lpsig_x |    844,674    .0381181           0   .0381181   .0381181
+     lpsig_e |    844,674    .1611936           0   .1611936   .1611936
+     lpsig_b |    844,674    .2311684           0   .2311684   .2311684
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:47:40
+ paused on:  10 May 2021, 11:39:21
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:47:59
+resumed on:  10 May 2021, 11:39:38
 
 . ****** NE + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -271,26 +271,26 @@ resumed on:   7 May 2021, 13:47:59
      plsig_b |    844,674    .2265566           0   .2265566   .2265566
 -------------+---------------------------------------------------------
      lsig_y2 |    844,674     3.29466           0    3.29466    3.29466
-       sig_x |    844,674    .0118845           0   .0118845   .0118845
+       sig_x |    844,674    .1409461           0   .1409461   .1409461
       lsig_c |    844,674    1.644934           0   1.644934   1.644934
-     lsig_e2 |    844,674    .8795289           0   .8795289   .8795289
-     lsig_b2 |    844,674    .7583129           0   .7583129   .7583129
+     lsig_e2 |    844,674    .8192793           0   .8192793   .8192793
+     lsig_b2 |    844,674    .6895008           0   .6895008   .6895008
 -------------+---------------------------------------------------------
-     lpsig_x |    844,674    .0036072           0   .0036072   .0036072
-     lpsig_e |    844,674    .2669559           0   .2669559   .2669559
-     lpsig_b |    844,674    .2301642           0   .2301642   .2301642
+     lpsig_x |    844,674    .0427802           0   .0427802   .0427802
+     lpsig_e |    844,674    .2486688           0   .2486688   .2486688
+     lpsig_b |    844,674    .2092783           0   .2092783   .2092783
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:48:03
+ paused on:  10 May 2021, 11:39:41
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:48:18
+resumed on:  10 May 2021, 11:39:58
 
 . ****** STU + Recalls + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -317,26 +317,26 @@ resumed on:   7 May 2021, 13:48:18
      plsig_b |    794,578    .2166497           0   .2166497   .2166497
 -------------+---------------------------------------------------------
      lsig_y2 |    794,578    3.286546           0   3.286546   3.286546
-       sig_x |    794,578    .0125175           0   .0125175   .0125175
+       sig_x |    794,578     .134443           0    .134443    .134443
       lsig_c |    794,578    1.644934           0   1.644934   1.644934
-     lsig_e2 |    794,578    .9045452           0   .9045452   .9045452
-     lsig_b2 |    794,578    .7245488           0   .7245488   .7245488
+     lsig_e2 |    794,578    .8451101           0   .8451101   .8451101
+     lsig_b2 |    794,578    .6620584           0   .6620584   .6620584
 -------------+---------------------------------------------------------
-     lpsig_x |    794,578    .0038087           0   .0038087   .0038087
-     lpsig_e |    794,578    .2752267           0   .2752267   .2752267
-     lpsig_b |    794,578    .2204591           0   .2204591   .2204591
+     lpsig_x |    794,578    .0409071           0   .0409071   .0409071
+     lpsig_e |    794,578    .2571424           0   .2571424   .2571424
+     lpsig_b |    794,578    .2014451           0   .2014451   .2014451
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:48:20
+ paused on:  10 May 2021, 11:40:01
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
-resumed on:   7 May 2021, 13:48:38
+resumed on:  10 May 2021, 11:40:14
 
 . ****** STU + Blanks + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
@@ -363,18 +363,18 @@ resumed on:   7 May 2021, 13:48:38
      plsig_b |    731,216    .2044328           0   .2044328   .2044328
 -------------+---------------------------------------------------------
      lsig_y2 |    731,216    3.000977           0   3.000977   3.000977
-       sig_x |    731,216    .0131588           0   .0131588   .0131588
+       sig_x |    731,216    .1549788           0   .1549788   .1549788
       lsig_c |    731,216    1.644934           0   1.644934   1.644934
-     lsig_e2 |    731,216    .7162267           0   .7162267   .7162267
-     lsig_b2 |    731,216    .6266575           0   .6266575   .6266575
+     lsig_e2 |    731,216    .6551827           0   .6551827   .6551827
+     lsig_b2 |    731,216    .5458815           0   .5458815   .5458815
 -------------+---------------------------------------------------------
-     lpsig_x |    731,216    .0043848           0   .0043848   .0043848
-     lpsig_e |    731,216    .2386645           0   .2386645   .2386645
-     lpsig_b |    731,216    .2088178           0   .2088178   .2088178
+     lpsig_x |    731,216    .0516428           0   .0516428   .0516428
+     lpsig_e |    731,216    .2183231           0   .2183231   .2183231
+     lpsig_b |    731,216    .1819013           0   .1819013   .1819013
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96noA_x_noage.log
   log type:  text
- paused on:   7 May 2021, 13:48:41
+ paused on:  10 May 2021, 11:40:20
 ----------------------------------------------------------------------------------------------------------------------

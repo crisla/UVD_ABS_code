@@ -159,7 +159,7 @@ resumed on:  23 Apr 2021, 12:36:34
   log type:  text
 resumed on:  23 Apr 2021, 12:36:36
 
-. ****** STU + Spell correction, 2002-2007 *****************************
+. ****** STU + Spell Adj, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -205,7 +205,7 @@ resumed on:  23 Apr 2021, 12:36:36
   log type:  text
 resumed on:  23 Apr 2021, 12:36:41
 
-. ****** NE - NO spell correction ,2002-2007 *****************************
+. ****** NE - NO spell Adj ,2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -297,7 +297,7 @@ resumed on:  23 Apr 2021, 12:40:03
   log type:  text
 resumed on:  23 Apr 2021, 12:40:06
 
-. ****** NE + Spell correction, 2002-2007 *****************************
+. ****** NE + Spell Adj, 2002-2007 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -481,7 +481,7 @@ resumed on:  23 Apr 2021, 12:40:14
   log type:  text
 resumed on:  23 Apr 2021, 12:40:16
 
-. ****** STU + Spell correction, 2008-2013 *****************************
+. ****** STU + Spell Adj, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -527,7 +527,7 @@ resumed on:  23 Apr 2021, 12:40:16
   log type:  text
 resumed on:  23 Apr 2021, 12:40:21
 
-. ****** NE - NO spell correction, 2008-2013 *****************************
+. ****** NE - NO spell Adj, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -619,7 +619,7 @@ resumed on:  23 Apr 2021, 12:43:59
   log type:  text
 resumed on:  23 Apr 2021, 12:44:03
 
-. ****** NE + Spell correction, 2008-2013 *****************************
+. ****** NE + Spell Adj, 2008-2013 *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 

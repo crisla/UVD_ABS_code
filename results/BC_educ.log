@@ -21,7 +21,7 @@
   log type:  text
 resumed on:  23 Apr 2021, 12:10:56
 
-. ****** RAW, 2002-2007, College *****************************
+. ****** RAW, 2002-2007, college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -67,7 +67,7 @@ resumed on:  23 Apr 2021, 12:10:56
   log type:  text
 resumed on:  23 Apr 2021, 12:10:57
 
-. ****** RAW, 2002-2007, No College *****************************
+. ****** RAW, 2002-2007, No college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -297,7 +297,7 @@ resumed on:  23 Apr 2021, 12:11:00
   log type:  text
 resumed on:  23 Apr 2021, 12:11:01
 
-. ****** STU + Spell correction, 2002-2007, college *****************************
+. ****** STU + Spell Adj, 2002-2007, college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -343,7 +343,7 @@ resumed on:  23 Apr 2021, 12:11:01
   log type:  text
 resumed on:  23 Apr 2021, 12:11:03
 
-. ****** STU + Spell correction, 2002-2007, no college *****************************
+. ****** STU + Spell Adj, 2002-2007, no college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -573,7 +573,7 @@ resumed on:  23 Apr 2021, 12:14:46
   log type:  text
 resumed on:  23 Apr 2021, 12:14:48
 
-. ****** NE + Spell correction, 2002-2007, college *****************************
+. ****** NE + Spell Adj, 2002-2007, college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -619,7 +619,7 @@ resumed on:  23 Apr 2021, 12:14:48
   log type:  text
 resumed on:  23 Apr 2021, 12:14:51
 
-. ****** NE + Spell correction, 2002-2007, no college *****************************
+. ****** NE + Spell Adj, 2002-2007, no college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -665,7 +665,7 @@ resumed on:  23 Apr 2021, 12:14:51
   log type:  text
 resumed on:  23 Apr 2021, 12:14:52
 
-. ****** RAW, 2008-2013, College *****************************
+. ****** RAW, 2008-2013, college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -711,7 +711,7 @@ resumed on:  23 Apr 2021, 12:14:52
   log type:  text
 resumed on:  23 Apr 2021, 12:14:53
 
-. ****** RAW, 2008-2013, No College *****************************
+. ****** RAW, 2008-2013, No college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -941,7 +941,7 @@ resumed on:  23 Apr 2021, 12:15:00
   log type:  text
 resumed on:  23 Apr 2021, 12:15:01
 
-. ****** STU + Spell correction, 2008-2013, college *****************************
+. ****** STU + Spell Adj, 2008-2013, college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -987,7 +987,7 @@ resumed on:  23 Apr 2021, 12:15:01
   log type:  text
 resumed on:  23 Apr 2021, 12:15:03
 
-. ****** STU + Spell correction, 2008-2013, no college *****************************
+. ****** STU + Spell Adj, 2008-2013, no college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -1217,7 +1217,7 @@ resumed on:  23 Apr 2021, 12:18:41
   log type:  text
 resumed on:  23 Apr 2021, 12:18:42
 
-. ****** NE + Spell correction, 2008-2013, college *****************************
+. ****** NE + Spell Adj, 2008-2013, college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
@@ -1263,7 +1263,7 @@ resumed on:  23 Apr 2021, 12:18:42
   log type:  text
 resumed on:  23 Apr 2021, 12:18:45
 
-. ****** NE + Spell correction, 2008-2013, no college *****************************
+. ****** NE + Spell Adj, 2008-2013, no college *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 si
 > g_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
