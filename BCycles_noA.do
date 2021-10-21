@@ -8,80 +8,104 @@ log off
 ********************************************************************************
 * prep
 ********************************************************************************
-* 2002-2007 ******************************
-use "./baseline13.dta", clear
-
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA.do"
-* Sample selection
-drop if dtout>td(31dec2007)|dtout<td(31dec2001)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
-* Save
-saveold "./MSnoA0207.dta", replace
-
-* Recalls
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA_recalls.do"
-* Sample selection
-drop if dtout>td(31dec2007)|dtout<td(31dec2001)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
-* Save
-saveold "./MSnoA0207_recalls.dta", replace
-
-* Non-employment
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA_ne.do"
-* Sample selection
-drop if dtout>td(31dec2007)|dtout<td(31dec2001)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
-* Save
-saveold "./MSnoA0207_NE.dta", replace
-
-* 2008-2013 ******************************
-use "./baseline13.dta", clear
-
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA.do"
-* Sample selection
-drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
-* Save
-saveold "./MSnoA0813.dta", replace
-
-* Recalls
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA_recalls.do"
-* Sample selection
-drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
-* Save
-saveold "./MSnoA0813_recalls.dta", replace
-
-* Non-employment
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA_ne.do"
-* Sample selection
-drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
-* Save
-saveold "./MSnoA0813_NE.dta", replace
-
+// * 2002-2007 ******************************
+// use "./baseline13.dta", clear
+//
+// * Fix education dummies
+// replace ed_d4 = 0 if ed_d4==.
+// replace ed_d3 = 0 if ed_d3==.
+// replace ed_d2 = 0 if ed_d2==.
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_noA.do"
+// * Sample selection
+// drop if dtout>td(31dec2007)|dtout<td(31dec2001)
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// * Save
+// saveold "./MSnoA0207.dta", replace
+//
+// * Recalls
+// use "./baseline13.dta", clear
+// * Fix education dummies
+// replace ed_d4 = 0 if ed_d4==.
+// replace ed_d3 = 0 if ed_d3==.
+// replace ed_d2 = 0 if ed_d2==.
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_noA_recalls.do"
+// * Sample selection
+// drop if dtout>td(31dec2007)|dtout<td(31dec2001)
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// * Save
+// saveold "./MSnoA0207_recalls.dta", replace
+//
+// * Non-employment
+// use "./baseline13.dta", clear
+// * Fix education dummies
+// replace ed_d4 = 0 if ed_d4==.
+// replace ed_d3 = 0 if ed_d3==.
+// replace ed_d2 = 0 if ed_d2==.
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_noA_ne.do"
+// * Sample selection
+// drop if dtout>td(31dec2007)|dtout<td(31dec2001)
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// * Save
+// saveold "./MSnoA0207_NE.dta", replace
+//
+// * 2008-2013 ******************************
+// use "./baseline13.dta", clear
+// * Fix education dummies
+// replace ed_d4 = 0 if ed_d4==.
+// replace ed_d3 = 0 if ed_d3==.
+// replace ed_d2 = 0 if ed_d2==.
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_noA.do"
+// * Sample selection
+// drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// * Save
+// saveold "./MSnoA0813.dta", replace
+//
+// * Recalls
+// use "./baseline13.dta", clear
+// "./MSnoA0813.dta"
+// * Fix education dummies
+// replace ed_d4 = 0 if ed_d4==.
+// replace ed_d3 = 0 if ed_d3==.
+// replace ed_d2 = 0 if ed_d2==.
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_noA_recalls.do"
+// * Sample selection
+// drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// * Save
+// saveold "./MSnoA0813_recalls.dta", replace
+//
+// * Non-employment
+// use "./baseline13.dta", clear
+// * Fix education dummies
+// replace ed_d4 = 0 if ed_d4==.
+// replace ed_d3 = 0 if ed_d3==.
+// replace ed_d2 = 0 if ed_d2==.
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_noA_ne.do"
+// * Sample selection
+// drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// * Save
+// saveold "./MSnoA0813_NE.dta", replace
+//
 ********************************************************************************
 * PART 1: 2002-2007
 ********************************************************************************
@@ -143,7 +167,7 @@ sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
 log off
 
 
-****** STU + Spell correction, 2002-2007 *****************************
+****** STU + Spell Adj, 2002-2007 *****************************
 use "./MSnoA0207.dta", clear
 
 by id: replace nup = _n if upper==1
@@ -161,11 +185,11 @@ gen n_spell_u=nup
 quietly do "./UPPER.do"
 
 log on
-****** STU + Spell correction, 2002-2007 *****************************
+****** STU + Spell Adj, 2002-2007 *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
-****** NE - NO spell correction, 2002-2007 *****************************
+****** NE No Spell Adj, 2002-2007 *****************************
 use "./MSnoA0207_NE.dta", clear
 
 gen nuc2 = nuc
@@ -187,22 +211,14 @@ replace Bdays= real_days_1 if nuc==.
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** NE - NO spell correction ,2002-2007 *****************************
+****** NE No Spell Adj ,2002-2007 *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
-// STU + Recalls + Spell correction
+// STU + Recalls + Spell Adj
 *******************************************
 
-* Non-employment
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA_recalls.do"
-* Sample selection
-drop if dtout>td(31dec2007)|dtout<td(31dec2001)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
+use "./MSnoA0207_recalls.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3
@@ -217,7 +233,7 @@ sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
 log off
 
 
-****** NE + Spell correction, 2002-2007 *****************************
+****** NE + Spell Adj, 2002-2007 *****************************
 use "./MSnoA0207_NE.dta", clear
 
 by id: replace nup = _n if upper==1
@@ -235,7 +251,7 @@ gen n_spell_u=nup
 quietly do "./UPPER.do"
 
 log on
-****** NE + Spell correction, 2002-2007 *****************************
+****** NE + Spell Adj, 2002-2007 *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -299,7 +315,7 @@ log on
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
-****** STU + Spell correction, 2008-2013 *****************************
+****** STU + Spell Adj, 2008-2013 *****************************
 use "./MSnoA0813.dta", clear
 
 by id: replace nup = _n if upper==1
@@ -317,11 +333,11 @@ gen n_spell_u=nup
 quietly do "./UPPER.do"
 
 log on
-****** STU + Spell correction, 2008-2013 *****************************
+****** STU + Spell Adj, 2008-2013 *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
-// ****** NE - NO spell correction, 2008-2013 *****************************
+// ****** NE No Spell Adj, 2008-2013 *****************************
 use "./MSnoA0813_NE.dta", clear
 
 gen nuc2 = nuc
@@ -343,22 +359,14 @@ replace Bdays= real_days_1 if nuc==.
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** NE - NO spell correction, 2008-2013 *****************************
+****** NE No Spell Adj, 2008-2013 *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
-// STU + Recalls + Spell correction
+// STU + Recalls + Spell Adj
 *******************************************
 
-* Non-employment
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_noA_recalls.do"
-* Sample selection
-drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
+use "./MSnoA0813_recalls.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3
@@ -373,7 +381,7 @@ sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
 log off
 
 
-****** NE + Spell correction, 2008-2013 *****************************
+****** NE + Spell Adj, 2008-2013 *****************************
 use "./MSnoA0813_NE.dta", clear
 
 by id: replace nup = _n if upper==1
@@ -391,7 +399,7 @@ gen n_spell_u=nup
 quietly do "./UPPER.do"
 
 log on
-****** NE + Spell correction, 2008-2013 *****************************
+****** NE + Spell Adj, 2008-2013 *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 

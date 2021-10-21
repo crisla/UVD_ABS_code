@@ -1,0 +1,64 @@
+------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/cristina/Documents/MS/UVD_ABS_code/UVD_ABS_code/results/means_and_variances.log
+  log type:  text
+ opened on:  21 Oct 2021, 22:04:16
+
+. log off
+      name:  <unnamed>
+       log:  /Users/cristina/Documents/MS/UVD_ABS_code/UVD_ABS_code/results/means_and_variances.log
+  log type:  text
+ paused on:  21 Oct 2021, 22:04:16
+------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/cristina/Documents/MS/UVD_ABS_code/UVD_ABS_code/results/means_and_variances.log
+  log type:  text
+resumed on:  21 Oct 2021, 22:04:20
+
+. tab sex_d, sum(lmu_i)
+
+            |          Summary of lmu_i
+      sex_d |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |    4.469309   1.2840729     146,875
+          1 |   4.0237945   1.2675935     177,477
+------------+------------------------------------
+      Total |    4.225535   1.2942213     324,352
+
+. tab sex_d, sum(lsig_i)
+
+            |          Summary of lsig_i
+      sex_d |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |   2.4745226   3.6542222     146,875
+          1 |   2.3034969    3.271564     177,477
+------------+------------------------------------
+      Total |   2.3809418   3.4511483     324,352
+
+. tab college, sum(lmu_i)
+
+            |          Summary of lmu_i
+    college |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |   4.2522466   1.2915752     274,961
+          1 |    4.076831   1.2988647      49,391
+------------+------------------------------------
+      Total |    4.225535   1.2942213     324,352
+
+. tab college, sum(lsig_i)
+
+            |          Summary of lsig_i
+    college |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |   2.3477682   3.4299772     274,961
+          1 |   2.5656199   3.5611032      49,391
+------------+------------------------------------
+      Total |   2.3809418   3.4511483     324,352
+
+. log off
+      name:  <unnamed>
+       log:  /Users/cristina/Documents/MS/UVD_ABS_code/UVD_ABS_code/results/means_and_variances.log
+  log type:  text
+ paused on:  21 Oct 2021, 22:04:21
+------------------------------------------------------------------------------------------------------------
