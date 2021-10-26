@@ -1,4 +1,4 @@
-log using ./results/BC_educ_noA.log,replace
+log using ./results/BC_sex_noA.log,replace
 ********************************************************************************
 *									       *
 *				BC Decomposition			       *
@@ -21,23 +21,23 @@ gen n_spell_u=nuc
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER_LOWER.do"
 
 log on
-****** RAW, 2002-2007 College *****************************
+****** RAW, 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER_LOWER.do"
 
 log on
-****** RAW, 2002-2007 No College *****************************
+****** RAW, 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -51,23 +51,23 @@ gen n_spell_u=nuc
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER.do"
 
 log on
-****** LTU, 2002-2007, college *****************************
+****** LTU, 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER.do"
 
 log on
-****** LTU, 2002-2007, no college *****************************
+****** LTU, 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -92,23 +92,23 @@ replace Bdays= real_days_1 if nuc==.
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** STU, 2002-2007, college *****************************
+****** STU, 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** STU, 2002-2007, no college *****************************
+****** STU, 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -130,23 +130,23 @@ gen n_spell_u=nup
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Spell correction, 2002-2007, college *****************************
+****** STU + Spell correction, 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Spell correction, 2002-2007, no college *****************************
+****** STU + Spell correction, 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -154,15 +154,7 @@ log off
 // STU + Recalls + Spell correction
 *******************************************
 
-* Non-employment
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_recalls.do"
-* Sample selection
-drop if dtout>td(31dec2007)|dtout<td(31dec2001)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
+use "./MSnoA0207_recalls.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3
@@ -171,23 +163,23 @@ gen n_spell_u=nup
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Recalls + Spell Adj 2002-2007, college *****************************
+****** STU + Recalls + Spell Adj, 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Recalls + Spell Adj 2002-2007, no college *****************************
+****** STU + Recalls + Spell Adj, 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -213,23 +205,23 @@ replace Bdays= real_days_1 if nuc==.
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** NE (NO Spell Adj) 2002-2007, college *****************************
+****** NE (NO Spell Adj), 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** NE (NO Spell Adj) 2002-2007, no college *****************************
+****** NE (NO Spell Adj), 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -251,23 +243,23 @@ gen n_spell_u=nup
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./UPPER.do"
 
 log on
-****** NE + Spell correction, 2002-2007, college *****************************
+****** NE + Spell correction, 2002-2007, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./UPPER.do"
 
 log on
-****** NE + Spell correction, 2002-2007, no college *****************************
+****** NE + Spell correction, 2002-2007, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -285,23 +277,23 @@ gen n_spell_u=nuc
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER_LOWER.do"
 
 log on
-****** RAW, 2008-2013 College *****************************
+****** RAW, 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER_LOWER.do"
 
 log on
-****** RAW, 2008-2013 No College *****************************
+****** RAW, 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -315,23 +307,23 @@ gen n_spell_u=nuc
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER.do"
 
 log on
-****** LTU, 2008-2013, college *****************************
+****** LTU, 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER.do"
 
 log on
-****** LTU, 2008-2013, no college *****************************
+****** LTU, 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -356,23 +348,23 @@ replace Bdays= real_days_1 if nuc==.
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** STU, 2008-2013, college *****************************
+****** STU, 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** STU, 2008-2013, no college *****************************
+****** STU, 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -394,38 +386,30 @@ gen n_spell_u=nup
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Spell correction, 2008-2013, college *****************************
+****** STU + Spell correction, 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Spell correction, 2008-2013, no college *****************************
+****** STU + Spell correction, 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 // STU + Recalls + Spell correction
 *******************************************
 
-* Non-employment
-use "./baseline13.dta", clear
-* Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_recalls.do"
-* Sample selection
-drop if dtout>td(31dec2013)|dtout<=td(31dec2007)
-* Prep part 2: count spells
-quietly do  "./counting_spells.do"
+use "./MSnoA0813_recalls.dta", clear
 
 by id: replace nup = _n if upper==1
 keep if nup<3
@@ -434,23 +418,23 @@ gen n_spell_u=nup
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Recalls + Spell Adj 2008-2013, college *****************************
+****** STU + Recalls + Spell Adj, 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./UPPER.do"
 
 log on
-****** STU + Recalls + Spell Adj 2008-2013, no college *****************************
+****** STU + Recalls + Spell Adj, 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -476,23 +460,23 @@ replace Bdays= real_days_1 if nuc==.
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** NE (NO Spell Adj) 2008-2013, college *****************************
+****** NE (NO Spell Adj), 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./LOWER_PLUS.do"
 
 log on
-****** NE (NO Spell Adj) 2008-2013, no college *****************************
+****** NE (NO Spell Adj), 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
@@ -513,23 +497,23 @@ gen n_spell_u=nup
 
 preserve
 
-drop if ed_d4==0
+drop if sex_d==0
 
 quietly do "./UPPER.do"
 
 log on
-****** NE + Spell correction, 2008-2013, college *****************************
+****** NE + Spell correction, 2008-2013, men *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
 restore
 
-drop if ed_d4==1
+drop if sex_d==1
 
 quietly do "./UPPER.do"
 
 log on
-****** NE + Spell correction, 2008-2013, no college *****************************
+****** NE + Spell correction, 2008-2013, women *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
