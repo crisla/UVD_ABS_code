@@ -310,8 +310,8 @@ gen n_spell_u=nup
 
 quietly do "./UPPER.do"
 
-// log using ./results/table_upper.log,replace
-log on
+log using ./results/table_recalls.log,replace
+// log on
 ****** NE + Spell Adj *****************************
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
