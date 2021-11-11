@@ -93,6 +93,17 @@ sort id jobcount
 by id: replace state2="U" if U_ghost == 1 & U_ghost != .
 by id: replace real_days_1  = diff_days if U_ghost == 1 & U_ghost != .
 
+* Discontinous workers gaps - OUT
+* -----------------------------------------------------
+sort id jobcount dtin dtout
+by id: gen fijo_disc = (tyco[_n-1]>=300&tyco[_n-1]<400) if state == state2
+replace fijo_disc = (tyco>=300&tyco<400) if state != state2 & U_ghost == 1
+
+// by id: gen days_disc = sum(fijo_disc)
+// by id: gen ever_disc = (days_disc[_N]>0)
+
+drop if fijo_disc==1
+
 *-*-*-*-*-*-*-*- Cleaning -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 drop if real_days_1<0
 drop if real_days_1 ==.

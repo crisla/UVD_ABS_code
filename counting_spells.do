@@ -1,6 +1,7 @@
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 * Counting spells
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
 // *-*-*-*-*-*-*-*- Censored: belongs to Lower Bound -*-*-*-*-*-*-*-*-*-
 //
 // by id: gen censored = 1 if state[_n]=="U"&state_future!="U"&state_future!=""
@@ -33,7 +34,9 @@ replace max_nup = 0 if max_nup  ==.
 //replace upper=0  if max_nup<2
 
 *to get number of individuals with less than 1 spell
-// tab max_nup if id!=id[_n-1]&max_nup>0 
+log using ./results/spell_no.log,replace
+tab max_nup if id!=id[_n-1] 
+log off
 
 ********************************************************************************
 // Won't be in either of them
@@ -46,6 +49,10 @@ drop if nuc>2&nup>2
 drop max_nup max_nuc
 by id: egen max_nup = count(nup)
 by id: egen max_nuc = count(nuc)
+
+log on
+tab max_nup if id!=id[_n-1]
+log close
 
 //Won't be in upper - too few observations
 drop if max_nup<2

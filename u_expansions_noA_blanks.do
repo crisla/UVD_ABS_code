@@ -24,7 +24,7 @@ sort id jobcount dtin dtout
 
 * *****
 
-sort id jobcount dtin
+sort id jobcount dtin dtout
 by id: gen diff_days = dtin[_n+1]-dtout[_n]
 replace diff_days = 0 if diff_days==.
 
@@ -36,8 +36,8 @@ gen Ldays = LLdays
 by id: replace Ldays  = Ldays + diff_days if state[_n]=="U"&state[_n+1]!="U"
 
 sort id jobcount 
-gen real_days_1 = days
-by id: replace real_days_1  = real_days_1 + diff_days if state[_n]=="U"&state[_n+1]!="U"&diff_days>0
+gen real_days_1 = Ldays
+// by id: replace real_days_1  = real_days_1 + diff_days if state[_n]=="U"&state[_n+1]!="U"&diff_days>0
 
 *-*-*-*-*-*-*-*- Count gaps between employment too -*-*-*-*-*-*-*-*
 
@@ -81,10 +81,10 @@ replace short_emp = 1 if emp_spell<360 & year(dtout)>=1992 & (state=="T"|state==
 replace short_emp = 1 if emp_spell<180 & year(dtout)<1992 & (state=="T"|state=="P")
 sort id jobcount dtin
 
-* Trim self-employed and other things but NOT recalls
+* Trim self-employment and recalls only
 * -----------------------------------------------------
-replace U_ghost = 0 if U_ghost==1&short_emp==0&self_emp==0&quit==0&recall==0
-replace U_ghost = 0 if self_emp==1
+replace U_ghost = 0 if U_ghost==1&recall==1
+replace U_ghost = 0 if U_ghost==1&self_emp==1
 
 * Count Gaps too
 * -----------------------------------------------------
@@ -92,11 +92,16 @@ sort id jobcount
 by id: replace state2="U" if U_ghost == 1 & U_ghost != .
 by id: replace real_days_1  = diff_days if U_ghost == 1 & U_ghost != .
 
-* Discontinous workers gaps - IN
+* Discontinous workers gaps - OUT
 * -----------------------------------------------------
 sort id jobcount dtin dtout
 by id: gen fijo_disc = (tyco[_n-1]>=300&tyco[_n-1]<400) if state == state2
 replace fijo_disc = (tyco>=300&tyco<400) if state != state2 & U_ghost == 1
+
+// by id: gen days_disc = sum(fijo_disc)
+// by id: gen ever_disc = (days_disc[_N]>0)
+
+drop if fijo_disc==1
 
 *-*-*-*-*-*-*-*- Cleaning -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 drop if real_days_1<0
@@ -130,3 +135,4 @@ replace censored = 0 if censored==.
 
 by id: gen upper=1 if state2[_n]=="U"&state_future!="U"&state_future!=""
 replace upper=0 if upper==.
+
