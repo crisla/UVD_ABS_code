@@ -264,7 +264,6 @@ log off
 
 * Export spells to a csv for plots
 gen yin = year(dtin)
-gen n_spell_u=nuc2
 export delimited real_days_1 n_spell_u yin using "./results/NE96.csv", replace
 
 
