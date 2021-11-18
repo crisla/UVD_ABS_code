@@ -1,14 +1,17 @@
--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.lo
+> g
   log type:  text
- opened on:  12 Nov 2021, 14:58:04
+ opened on:  18 Nov 2021, 12:41:35
 
 . 
 . 
-. // ********************************************************************************
+. // ****************************************************************************
+> ****
 . // // calculating Lower Lower (Raw data)
-. // ********************************************************************************
+. // ****************************************************************************
+> ****
 . //
 . // use "./MS96.dta", clear
 . //
@@ -25,9 +28,9 @@
 . //
 . // log on
 . // ****** Raw, men *****************************
-. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
-> b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsi
-> g_b
+. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e p
+> sig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsi
+> g_e lpsig_b
 . // log off
 . //
 . // restore
@@ -38,14 +41,16 @@
 . //
 . // log on
 . // ****** Raw, women *****************************
-. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
-> b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsi
-> g_b
+. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e p
+> sig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsi
+> g_e lpsig_b
 . // log off
 . //
-. // ********************************************************************************
+. // ****************************************************************************
+> ****
 . // // calculating Lower (LTU Expansion)
-. // ********************************************************************************
+. // ****************************************************************************
+> ****
 . // * 1.
 . // use "./MS96.dta", clear
 . //
@@ -62,9 +67,9 @@
 . //
 . // log on
 . // ****** LTU, men *****************************
-. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
-> b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsi
-> g_b
+. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e p
+> sig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsi
+> g_e lpsig_b
 . // log off
 . //
 . // restore
@@ -75,15 +80,17 @@
 . //
 . // log on
 . // ****** LTU, women *****************************
-. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
-> b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsi
-> g_b
+. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e p
+> sig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsi
+> g_e lpsig_b
 . // log off
 . //
 . //
-. // ********************************************************************************
+. // ****************************************************************************
+> ****
 . // // calculating Lower+ (STU Expansion)
-. // ********************************************************************************
+. // ****************************************************************************
+> ****
 . // use "./MS96.dta", clear
 . //
 . // gen nuc2 = nuc
@@ -110,9 +117,9 @@
 . //
 . // log on
 . // ****** STU, men *****************************
-. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
-> b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsi
-> g_b
+. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e p
+> sig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsi
+> g_e lpsig_b
 . // log off
 . //
 . // restore
@@ -123,23 +130,25 @@
 . //
 . // log on
 . // ****** STU, women *****************************
-. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_
-> b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsi
-> g_b
+. // sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e p
+> sig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsi
+> g_e lpsig_b
 . // log off
 . 
 . 
-. ********************************************************************************
+. *******************************************************************************
+> *
 . // calculating uncensored (Spell Number correction + STU)
-. ********************************************************************************
+. *******************************************************************************
+> *
 . use "./MS96.dta", clear
 
 . 
 . by id: replace nup = _n if upper==1
-(85595 real changes made)
+(84456 real changes made)
 
 . keep if nup<3
-(175,407 observations deleted)
+(168,792 observations deleted)
 
 . 
 . gen n_spell_u=nup
@@ -149,7 +158,7 @@
 
 . 
 . drop if sex_d==0
-(311,830 observations deleted)
+(299,416 observations deleted)
 
 . 
 . quietly do "./UPPER.do"
@@ -159,88 +168,93 @@
 (log already on)
 
 . ****** STU+Spell Adj, men *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b p
-> lsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
+> _b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e
+>  lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
-        mu_y |    377,956    177.7184           0   177.7184   177.7184
-       sig_y |    377,956    102377.4           0   102377.4   102377.4
-       sig_c |    377,956    44025.67           0   44025.67   44025.67
-       sig_e |    377,956    45909.61           0   45909.61   45909.61
-       sig_b |    377,956    12442.12           0   12442.12   12442.12
+        mu_y |    367,644    178.1944           0   178.1944   178.1944
+       sig_y |    367,644    103720.5           0   103720.5   103720.5
+       sig_c |    367,644    44418.57           0   44418.57   44418.57
+       sig_e |    367,644    46636.29           0   46636.29   46636.29
+       sig_b |    367,644     12665.6           0    12665.6    12665.6
 -------------+---------------------------------------------------------
-      lsig_y |    377,956    2.761846           0   2.761846   2.761846
-      lsig_c |    377,956    1.644934           0   1.644934   1.644934
-      lsig_e |    377,956    .6375695           0   .6375695   .6375695
-      lsig_b |    377,956    .4793422           0   .4793422   .4793422
-      psig_c |    377,956    .4300331           0   .4300331   .4300331
+      lsig_y |    367,644    2.827204           0   2.827204   2.827204
+      lsig_c |    367,644    1.644934           0   1.644934   1.644934
+      lsig_e |    367,644    .6925699           0   .6925699   .6925699
+      lsig_b |    367,644    .4896998           0   .4896998   .4896998
+      psig_c |    367,644    .4282528           0   .4282528   .4282528
 -------------+---------------------------------------------------------
-      psig_e |    377,956     .448435           0    .448435    .448435
-      psig_b |    377,956    .1215319           0   .1215319   .1215319
-     plsig_c |    377,956    .5955923           0   .5955923   .5955923
-     plsig_e |    377,956    .2308491           0   .2308491   .2308491
-     plsig_b |    377,956    .1735586           0   .1735586   .1735586
+      psig_e |    367,644    .4496345           0   .4496345   .4496345
+      psig_b |    367,644    .1221128           0   .1221128   .1221128
+     plsig_c |    367,644    .5818236           0   .5818236   .5818236
+     plsig_e |    367,644    .2449664           0   .2449664   .2449664
+     plsig_b |    367,644    .1732099           0   .1732099   .1732099
 -------------+---------------------------------------------------------
-     lsig_y2 |    377,956    2.761847           0   2.761847   2.761847
-       sig_x |    377,956    .0116243           0   .0116243   .0116243
-      lsig_c |    377,956    1.644934           0   1.644934   1.644934
-     lsig_e2 |    377,956    .6143183           0   .6143183   .6143183
-     lsig_b2 |    377,956    .4909699           0   .4909699   .4909699
+     lsig_y2 |    367,644    2.827204           0   2.827204   2.827204
+       sig_x |    367,644    .0117514           0   .0117514   .0117514
+      lsig_c |    367,644    1.644934           0   1.644934   1.644934
+     lsig_e2 |    367,644    .6690642           0   .6690642   .6690642
+     lsig_b2 |    367,644    .5014539           0   .5014539   .5014539
 -------------+---------------------------------------------------------
-     lpsig_x |    377,956    .0042089           0   .0042089   .0042089
-     lpsig_e |    377,956    .2224303           0   .2224303   .2224303
-     lpsig_b |    377,956    .1777687           0   .1777687   .1777687
+     lpsig_x |    367,644    .0041566           0   .0041566   .0041566
+     lpsig_e |    367,644    .2366523           0   .2366523   .2366523
+     lpsig_b |    367,644    .1773674           0   .1773674   .1773674
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.lo
+> g
   log type:  text
- paused on:  12 Nov 2021, 14:58:13
--------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------
+ paused on:  18 Nov 2021, 12:41:49
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.lo
+> g
   log type:  text
-resumed on:  12 Nov 2021, 14:58:15
+resumed on:  18 Nov 2021, 12:41:52
 
 . ****** STU+Spell Adj, women *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b p
-> lsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
+> _b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e
+>  lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
-        mu_y |    311,830    280.4515           0   280.4515   280.4515
-       sig_y |    311,830      242567           0     242567     242567
-       sig_c |    311,830    102827.6           0   102827.6   102827.6
-       sig_e |    311,830    115564.1           0   115564.1   115564.1
-       sig_b |    311,830    24175.35           0   24175.35   24175.35
+        mu_y |    299,416    284.6982           0   284.6982   284.6982
+       sig_y |    299,416      248107           0     248107     248107
+       sig_c |    299,416    105323.2           0   105323.2   105323.2
+       sig_e |    299,416    118512.8           0   118512.8   118512.8
+       sig_b |    299,416    24270.96           0   24270.96   24270.96
 -------------+---------------------------------------------------------
-      lsig_y |    311,830    2.875695           0   2.875695   2.875695
-      lsig_c |    311,830    1.644934           0   1.644934   1.644934
-      lsig_e |    311,830    .8020948           0   .8020948   .8020948
-      lsig_b |    311,830    .4286657           0   .4286657   .4286657
-      psig_c |    311,830    .4239142           0   .4239142   .4239142
+      lsig_y |    299,416    2.962265           0   2.962265   2.962265
+      lsig_c |    299,416    1.644934           0   1.644934   1.644934
+      lsig_e |    299,416    .8756238           0   .8756238   .8756238
+      lsig_b |    299,416    .4417068           0   .4417068   .4417068
+      psig_c |    299,416    .4245073           0   .4245073   .4245073
 -------------+---------------------------------------------------------
-      psig_e |    311,830    .4764211           0   .4764211   .4764211
-      psig_b |    311,830    .0996646           0   .0996646   .0996646
-     plsig_c |    311,830    .5720128           0   .5720128   .5720128
-     plsig_e |    311,830    .2789221           0   .2789221   .2789221
-     plsig_b |    311,830    .1490651           0   .1490651   .1490651
+      psig_e |    299,416    .4776681           0   .4776681   .4776681
+      psig_b |    299,416    .0978246           0   .0978246   .0978246
+     plsig_c |    299,416    .5552961           0   .5552961   .5552961
+     plsig_e |    299,416    .2955927           0   .2955927   .2955927
+     plsig_b |    299,416    .1491112           0   .1491112   .1491112
 -------------+---------------------------------------------------------
-     lsig_y2 |    311,830    2.875694           0   2.875694   2.875694
-       sig_x |    311,830    .0210192           0   .0210192   .0210192
-      lsig_c |    311,830    1.644934           0   1.644934   1.644934
-     lsig_e2 |    311,830    .7600538           0   .7600538   .7600538
-     lsig_b2 |    311,830    .4496865           0   .4496865   .4496865
+     lsig_y2 |    299,416    2.962266           0   2.962266   2.962266
+       sig_x |    299,416    .0212255           0   .0212255   .0212255
+      lsig_c |    299,416    1.644934           0   1.644934   1.644934
+     lsig_e2 |    299,416    .8331701           0   .8331701   .8331701
+     lsig_b2 |    299,416    .4629366           0   .4629366   .4629366
 -------------+---------------------------------------------------------
-     lpsig_x |    311,830    .0073093           0   .0073093   .0073093
-     lpsig_e |    311,830    .2643028           0   .2643028   .2643028
-     lpsig_b |    311,830     .156375           0    .156375    .156375
+     lpsig_x |    299,416    .0071653           0   .0071653   .0071653
+     lpsig_e |    299,416     .281261           0    .281261    .281261
+     lpsig_b |    299,416    .1562779           0   .1562779   .1562779
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_sex_96.lo
+> g
   log type:  text
- paused on:  12 Nov 2021, 14:58:18
--------------------------------------------------------------------------------------
+ paused on:  18 Nov 2021, 12:41:57
+---------------------------------------------------------------------------------

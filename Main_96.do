@@ -151,36 +151,36 @@ export delimited Ldays n_spell_u yin using "./results/Lower96.csv", replace
 ********************************************************************************
 // calculating Lower+ (STU Expansion)
 ********************************************************************************
-use "./MS96.dta", clear
-
-gen nuc2 = nuc
-by id: replace nuc2 = nup if nuc==.&max_nuc<2
-drop if nuc==.&max_nuc==2
-by id: replace nuc2 = _n if nuc2!=.
-
-by id: egen max_nuc2 = max(nuc2)
-
-by id: drop if max_nuc2==3&nuc==.&nup>1
-
-by id: replace nuc2 = _n if nuc2!=.
-drop max_nuc2
-by id: egen max_nuc2 = max(nuc2)
-
-gen Bdays = Ldays
-replace Bdays= real_days_1 if nuc==.
-
-quietly do "./LOWER_PLUS.do"
+// use "./MS96.dta", clear
+//
+// gen nuc2 = nuc
+// by id: replace nuc2 = nup if nuc==.&max_nuc<2
+// drop if nuc==.&max_nuc==2
+// by id: replace nuc2 = _n if nuc2!=.
+//
+// by id: egen max_nuc2 = max(nuc2)
+//
+// by id: drop if max_nuc2==3&nuc==.&nup>1
+//
+// by id: replace nuc2 = _n if nuc2!=.
+// drop max_nuc2
+// by id: egen max_nuc2 = max(nuc2)
+//
+// gen Bdays = Ldays
+// replace Bdays= real_days_1 if nuc==.
+//
+// quietly do "./LOWER_PLUS.do"
 
 // log using ./results/table_lower_plus.log,replace
-log on
-****** STU *****************************
-sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
-log off
+// log on
+// ****** STU *****************************
+// sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+// log off
 
-* Export spells to a csv for plots
-gen yin = year(dtin)
-gen n_spell_u=nuc2
-export delimited Bdays n_spell_u yin using "./results/STU96.csv", replace
+// * Export spells to a csv for plots
+// gen yin = year(dtin)
+// gen n_spell_u=nuc2
+// export delimited Bdays n_spell_u yin using "./results/STU96.csv", replace
 
 
 ********************************************************************************
@@ -264,25 +264,26 @@ log off
 
 * Export spells to a csv for plots
 gen yin = year(dtin)
-export delimited real_days_1 n_spell_u yin using "./results/NE96.csv", replace
+replace U_ghost = 0 if U_ghost==.
+export delimited real_days_1 n_spell_u recall U_ghost yin using "./results/NE96.csv", replace
 
 
 // STU + Recalls + Spell correction
-*******************************************
+// *******************************************
+//
+// use "./MS96_recalls.dta", clear
+//
+// by id: replace nup = _n if upper==1
+// keep if nup<3
+//
+// gen n_spell_u=nup
+//
+// quietly do "./UPPER.do"
 
-use "./MS96_recalls.dta", clear
-
-by id: replace nup = _n if upper==1
-keep if nup<3
-
-gen n_spell_u=nup
-
-quietly do "./UPPER.do"
-
-log on
+// log on
 ****** STU + Recalls + Spell Adj *****************************
-sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
-log off
+// sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+// log off
 
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
