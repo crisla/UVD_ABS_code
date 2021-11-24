@@ -2,19 +2,19 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- opened on:  17 Nov 2021, 13:30:15
+ opened on:  19 Nov 2021, 17:09:25
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  17 Nov 2021, 13:30:15
+ paused on:  19 Nov 2021, 17:09:25
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  17 Nov 2021, 13:30:28
+resumed on:  19 Nov 2021, 17:09:34
 
 . ****** Raw *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -55,13 +55,13 @@ resumed on:  17 Nov 2021, 13:30:28
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  17 Nov 2021, 13:30:32
+ paused on:  19 Nov 2021, 17:09:39
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  17 Nov 2021, 13:30:45
+resumed on:  19 Nov 2021, 17:09:50
 
 . ****** LTU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -102,13 +102,60 @@ resumed on:  17 Nov 2021, 13:30:45
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  17 Nov 2021, 13:30:49
+ paused on:  19 Nov 2021, 17:09:53
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  17 Nov 2021, 13:30:59
+resumed on:  19 Nov 2021, 17:10:06
+
+. ****** STU *****************************
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
+> _b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e
+>  lpsig_b
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+        mu_y |    667,060    259.3815           0   259.3815   259.3815
+       sig_y |    667,060    176547.1           0   176547.1   176547.1
+       sig_c |    667,060    87085.31           0   87085.31   87085.31
+       sig_e |    667,060       69655           0      69655      69655
+       sig_b |    667,060    19806.79           0   19806.79   19806.79
+-------------+---------------------------------------------------------
+      lsig_y |    667,060    2.374481           0   2.374481   2.374481
+      lsig_c |    667,060    1.644934           0   1.644934   1.644934
+      lsig_e |    667,060    .2885938           0   .2885938   .2885938
+      lsig_b |    667,060    .4409529           0   .4409529   .4409529
+      psig_c |    667,060    .4932695           0   .4932695   .4932695
+-------------+---------------------------------------------------------
+      psig_e |    667,060    .3945406           0   .3945406   .3945406
+      psig_b |    667,060    .1121899           0   .1121899   .1121899
+     plsig_c |    667,060    .6927553           0   .6927553   .6927553
+     plsig_e |    667,060    .1215397           0   .1215397   .1215397
+     plsig_b |    667,060     .185705           0    .185705    .185705
+-------------+---------------------------------------------------------
+     lsig_y2 |    667,060    2.374482           0   2.374482   2.374482
+       sig_x |    667,060     .001024           0    .001024    .001024
+      lsig_c |    667,060    1.644934           0   1.644934   1.644934
+     lsig_e2 |    667,060    .2865446           0   .2865446   .2865446
+     lsig_b2 |    667,060    .4419798           0   .4419798   .4419798
+-------------+---------------------------------------------------------
+     lpsig_x |    667,060    .0004313           0   .0004313   .0004313
+     lpsig_e |    667,060    .1206766           0   .1206766   .1206766
+     lpsig_b |    667,060    .1861373           0   .1861373   .1861373
+
+. log off
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
+  log type:  text
+ paused on:  19 Nov 2021, 17:10:11
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
+  log type:  text
+resumed on:  19 Nov 2021, 17:10:25
 
 . ****** STU+Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -149,13 +196,13 @@ resumed on:  17 Nov 2021, 13:30:59
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  17 Nov 2021, 13:31:02
+ paused on:  19 Nov 2021, 17:10:30
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  17 Nov 2021, 13:31:23
+resumed on:  19 Nov 2021, 17:10:44
 
 . ****** NE + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -196,5 +243,5 @@ resumed on:  17 Nov 2021, 13:31:23
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  17 Nov 2021, 13:31:27
+ paused on:  19 Nov 2021, 17:10:49
 ---------------------------------------------------------------------------------
