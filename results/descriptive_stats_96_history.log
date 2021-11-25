@@ -1,21 +1,71 @@
-----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_history.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_
+> history.log
   log type:  text
- opened on:  24 Nov 2021, 12:43:09
+ opened on:  24 Nov 2021, 14:46:34
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_history.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_
+> history.log
   log type:  text
- paused on:  24 Nov 2021, 12:43:09
-----------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------
+ paused on:  24 Nov 2021, 14:46:34
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_history.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_
+> history.log
   log type:  text
-resumed on:  24 Nov 2021, 12:43:19
+resumed on:  24 Nov 2021, 14:46:42
 
+. 
+. * 1: Without history, in general * * * * * * * * * * 
+. * Sex (0=women)
+. tab sex_d, sum(mu_i)
+
+            |           Summary of mu_i
+      sex_d |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |    273.3418   357.21888     136,690
+          1 |   169.07436   227.81508     162,846
+------------+------------------------------------
+      Total |   216.65567      298.57     299,536
+
+. tab sex_d, sum(std_i)
+
+            |          Summary of std_i
+      sex_d |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |   237.26528   391.94984     136,690
+          1 |   144.98682   248.36787     162,846
+------------+------------------------------------
+      Total |   187.09709   325.19805     299,536
+
+. 
+. * Education
+. tab college, sum(mu_i)
+
+            |           Summary of mu_i
+    college |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |   221.32445    305.9587     253,616
+          1 |   190.87006   252.37037      45,920
+------------+------------------------------------
+      Total |   216.65567      298.57     299,536
+
+. tab college, sum(std_i)
+
+            |          Summary of std_i
+    college |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+          0 |    190.3775   333.13633     253,616
+          1 |   168.97936   276.59438      45,920
+------------+------------------------------------
+      Total |   187.09709   325.19805     299,536
+
+. 
+. * 2: Conditional on history * * * * * * * * * * * * * *
 . tab history, sum(mu_i)
 
             |           Summary of mu_i
@@ -42,6 +92,18 @@ resumed on:  24 Nov 2021, 12:43:19
 
 . 
 . * Women
+. tab history if sex_d==0, sum(mu_i)
+
+            |           Summary of mu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   249.39212   333.56899      18,748
+         PT |   325.69181   401.29806      29,495
+         TP |   276.08355   346.91235      16,619
+         TT |   257.46192   343.94114      71,828
+------------+------------------------------------
+      Total |    273.3418   357.21888     136,690
+
 . tab history if sex_d==0, sum(std_i)
 
             |          Summary of std_i
@@ -56,6 +118,18 @@ resumed on:  24 Nov 2021, 12:43:19
 
 . 
 . * Men
+. tab history if sex_d==1, sum(mu_i)
+
+            |           Summary of mu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   163.30065   232.62234      22,312
+         PT |   194.12663   260.88354      41,286
+         TP |   171.24033   223.90828      17,761
+         TT |   157.49024   207.43707      81,487
+------------+------------------------------------
+      Total |   169.07436   227.81508     162,846
+
 . tab history if sex_d==1, sum(std_i)
 
             |          Summary of std_i
@@ -70,6 +144,18 @@ resumed on:  24 Nov 2021, 12:43:19
 
 . 
 . * No-college
+. tab history if ed_d4==0, sum(mu_i)
+
+            |           Summary of mu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   208.34961   294.56222      33,467
+         PT |   253.05705   339.47964      61,687
+         TP |   230.87157   306.04204      26,376
+         TT |   209.76358   293.59019     123,316
+------------+------------------------------------
+      Total |   222.75161   307.81087     244,846
+
 . tab history if ed_d4==0, sum(std_i)
 
             |          Summary of std_i
@@ -84,6 +170,18 @@ resumed on:  24 Nov 2021, 12:43:19
 
 . 
 . * College
+. tab history if ed_d4==1, sum(mu_i)
+
+            |           Summary of mu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   176.88279   252.99122       5,989
+         PT |   226.63232   286.90113       7,274
+         TP |   190.50774   254.98136       6,785
+         TT |   184.14825    239.9857      25,872
+------------+------------------------------------
+      Total |   190.87006   252.37037      45,920
+
 . tab history if ed_d4==1, sum(std_i)
 
             |          Summary of std_i
@@ -97,7 +195,7 @@ resumed on:  24 Nov 2021, 12:43:19
       Total |   168.97936   276.59438      45,920
 
 . 
-. *** In logs ***
+. * 3: In logs * * * * * * * * * * * * * * * * * * * * *
 . 
 . * In general - in logs
 . tab history, sum(lmu_i)
@@ -125,7 +223,19 @@ resumed on:  24 Nov 2021, 12:43:19
       Total |   2.4310987   3.4920832     299,536
 
 . 
-. * Women - in logs
+. * Women
+. tab history if sex_d==0, sum(lmu_i)
+
+            |          Summary of lmu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   4.3356691    1.322606      18,748
+         PT |   4.6453687   1.2708206      29,495
+         TP |   4.3869121   1.3589055      16,619
+         TT |   4.4197152   1.2852625      71,828
+------------+------------------------------------
+      Total |    4.452891   1.3007364     136,690
+
 . tab history if sex_d==0, sum(lsig_i)
 
             |          Summary of lsig_i
@@ -139,7 +249,19 @@ resumed on:  24 Nov 2021, 12:43:19
       Total |   2.5290071    3.700455     136,690
 
 . 
-. * Men - in logs
+. * Men
+. tab history if sex_d==1, sum(lmu_i)
+
+            |          Summary of lmu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   3.8092618   1.3589092      22,312
+         PT |   4.1528033   1.2550044      41,286
+         TP |   3.8781631   1.3456107      17,761
+         TT |   3.9849259    1.247276      81,487
+------------+------------------------------------
+      Total |    3.991775   1.2809406     162,846
+
 . tab history if sex_d==1, sum(lsig_i)
 
             |          Summary of lsig_i
@@ -153,7 +275,19 @@ resumed on:  24 Nov 2021, 12:43:19
       Total |   2.3489161    3.304833     162,846
 
 . 
-. * No-college - in logs
+. * No-college
+. tab history if ed_d4==0, sum(lmu_i)
+
+            |          Summary of lmu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   4.0997598   1.3560155      33,467
+         PT |   4.3752203   1.2845323      61,687
+         TP |   4.1790422   1.3667752      26,376
+         TT |   4.2091182   1.2892797     123,316
+------------+------------------------------------
+      Total |   4.2327786   1.3090334     244,846
+
 . tab history if ed_d4==0, sum(lsig_i)
 
             |          Summary of lsig_i
@@ -167,7 +301,19 @@ resumed on:  24 Nov 2021, 12:43:19
       Total |   2.4054382     3.48084     244,846
 
 . 
-. * College - in logs
+. * College
+. tab history if ed_d4==1, sum(lmu_i)
+
+            |          Summary of lmu_i
+    history |        Mean   Std. Dev.       Freq.
+------------+------------------------------------
+         PP |   3.7211566   1.4237703       5,989
+         PT |   4.2595511   1.2896281       7,274
+         TP |   3.8798248   1.3964526       6,785
+         TT |   4.1166936   1.2571855      25,872
+------------+------------------------------------
+      Total |   4.0527371   1.3168806      45,920
+
 . tab history if ed_d4==1, sum(lsig_i)
 
             |          Summary of lsig_i
@@ -186,7 +332,8 @@ resumed on:  24 Nov 2021, 12:43:19
 . *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 . log close
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_history.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/descriptive_stats_96_
+> history.log
   log type:  text
- closed on:  24 Nov 2021, 12:43:24
-----------------------------------------------------------------------------------------------
+ closed on:  24 Nov 2021, 14:46:59
+---------------------------------------------------------------------------------
