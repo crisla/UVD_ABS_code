@@ -2,19 +2,19 @@
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- opened on:  19 Nov 2021, 17:09:25
+ opened on:  26 Nov 2021, 11:53:24
 
 . log off
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  19 Nov 2021, 17:09:25
+ paused on:  26 Nov 2021, 11:53:24
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  19 Nov 2021, 17:09:34
+resumed on:  26 Nov 2021, 11:53:30
 
 . ****** Raw *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -55,13 +55,13 @@ resumed on:  19 Nov 2021, 17:09:34
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  19 Nov 2021, 17:09:39
+ paused on:  26 Nov 2021, 11:53:33
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  19 Nov 2021, 17:09:50
+resumed on:  26 Nov 2021, 11:53:38
 
 . ****** LTU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -102,13 +102,13 @@ resumed on:  19 Nov 2021, 17:09:50
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  19 Nov 2021, 17:09:53
+ paused on:  26 Nov 2021, 11:53:41
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  19 Nov 2021, 17:10:06
+resumed on:  26 Nov 2021, 11:53:51
 
 . ****** STU *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -149,13 +149,13 @@ resumed on:  19 Nov 2021, 17:10:06
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  19 Nov 2021, 17:10:11
+ paused on:  26 Nov 2021, 11:53:54
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  19 Nov 2021, 17:10:25
+resumed on:  26 Nov 2021, 11:54:02
 
 . ****** STU+Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -196,13 +196,13 @@ resumed on:  19 Nov 2021, 17:10:25
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  19 Nov 2021, 17:10:30
+ paused on:  26 Nov 2021, 11:54:06
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
-resumed on:  19 Nov 2021, 17:10:44
+resumed on:  26 Nov 2021, 11:54:17
 
 . ****** NE + Spell Adj *****************************
 . sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
@@ -243,5 +243,5 @@ resumed on:  19 Nov 2021, 17:10:44
       name:  <unnamed>
        log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results96.log
   log type:  text
- paused on:  19 Nov 2021, 17:10:49
+ paused on:  26 Nov 2021, 11:54:20
 ---------------------------------------------------------------------------------
