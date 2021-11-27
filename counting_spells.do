@@ -7,9 +7,11 @@
 // by id: gen censored = 1 if state[_n]=="U"&state_future!="U"&state_future!=""
 // replace censored =0 if censored==.
 
-sort id state jobcount
-by id state: gen nuc = _n if censored == 1
-//replace censored =0 if nuc>2 
+sort id censored jobcount
+by id censored: gen nuc = _n if censored == 1
+replace censored =0 if nuc>2 
+// by id: gen max_nuc = sum(censored)
+// by id: replace max_nuc = . if _n!=_N
 
 sort id jobcount
 
@@ -24,9 +26,12 @@ replace max_nuc = 0 if max_nuc  ==.
 // by id: gen upper=1 if state2[_n]=="U"&state_future!="U"&state_future!=""
 // replace upper=0 if upper==.
 
-sort id state2 jobcount
-by id state2, sort: gen nup = _n if upper == 1
-//replace upper=0  if nup>2
+// by id: gen max_nup = sum(upper)
+// by id: replace max_nup = . if _n!=_N
+
+sort id upper jobcount
+by id upper: gen nup = _n if upper == 1
+// replace upper=0  if nup>2
 
 sort id jobcount
 by id: egen max_nup = max(nup)
@@ -34,9 +39,9 @@ replace max_nup = 0 if max_nup  ==.
 //replace upper=0  if max_nup<2
 
 *to get number of individuals with less than 1 spell
-log using ./results/spell_no.log,replace
-tab max_nup if id!=id[_n-1] 
-log off
+// log using ./results/spell_no.log,replace
+// tab max_nup if id!=id[_n-1] 
+// log close
 
 ********************************************************************************
 // Won't be in either of them
@@ -50,9 +55,9 @@ drop max_nup max_nuc
 by id: egen max_nup = count(nup)
 by id: egen max_nuc = count(nuc)
 
-log on
-tab max_nup if id!=id[_n-1]
-log close
+// log on
+// tab max_nup if id!=id[_n-1]
+// log close
 
 //Won't be in upper - too few observations
 drop if max_nup<2

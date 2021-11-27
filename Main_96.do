@@ -15,7 +15,6 @@ sort id jobcount dtin
 
 // *************************************************************************
 * Prep part 1: apply unemployment expansions
-sort id jobcount dtin
 quietly do  "./u_expansions.do"
 
 * Sample selection -1996
@@ -27,8 +26,8 @@ quietly do  "./counting_spells.do"
 * Save
 saveold "./MS96.dta", replace
 
-* Same but with recalls
-*************************************************************************
+// *************************************************************************
+* Recalls with UI included: Original version
 use "./baseline13.dta", clear
 
 * Update days variable
@@ -39,18 +38,43 @@ replace age = year(dtin) - year(dtbirth)
 
 sort id jobcount dtin
 
+// *************************************************************************
 * Prep part 1: apply unemployment expansions
-sort id jobcount dtin
-quietly do  "./u_expansions_recalls.do"
+quietly do  "./u_expansions_original.do"
 
 * Sample selection -1996
 drop if (dtin < td(01jan1996)&state==state2)| (dtout < td(01jan1996)&state!=state2)
 
 * Prep part 2: count spells
 quietly do  "./counting_spells.do"
+
+* Save
+saveold "./MS96_old.dta", replace
+
+// * Same but with recalls
+// *************************************************************************
+// use "./baseline13.dta", clear
 //
-// * Save
-saveold "./MS96_recalls.dta", replace
+// * Update days variable
+// replace days = dtout-dtin
+//
+// * Update age variable
+// replace age = year(dtin) - year(dtbirth)
+//
+// sort id jobcount dtin
+//
+// * Prep part 1: apply unemployment expansions
+// sort id jobcount dtin
+// quietly do  "./u_expansions_recalls.do"
+//
+// * Sample selection -1996
+// drop if (dtin < td(01jan1996)&state==state2)| (dtout < td(01jan1996)&state!=state2)
+//
+// * Prep part 2: count spells
+// quietly do  "./counting_spells.do"
+// //
+// // * Save
+// saveold "./MS96_recalls.dta", replace
 
 // * Robustness 15
 // *************************************************************************
@@ -101,7 +125,7 @@ log off
 // calculating Lower Lower (Raw data)
 ********************************************************************************
 
-use "./MS96.dta", clear
+use "./MS96_old.dta", clear
 
 keep if max_nuc==2
 keep if nuc!=.
@@ -136,8 +160,6 @@ gen n_spell_u=nuc
 
 quietly do "./LOWER.do"
 
-sum lsig_y lsig_c lsig_e lsig_b plsig_c plsig_e plsig_b
-
 // log using ./results/table_lower.log,replace
 log on
 ****** LTU *****************************
@@ -146,41 +168,41 @@ log off
 
 * Export spells to a csv for plots
 gen yin = year(dtin)
-export delimited Ldays n_spell_u yin using "./results/Lower96.csv", replace
+export delimited Ldays LLdays n_spell_u yin using "./results/Lower96.csv", replace
 
 ********************************************************************************
 // calculating Lower+ (STU Expansion)
 ********************************************************************************
-// use "./MS96.dta", clear
-//
-// gen nuc2 = nuc
-// by id: replace nuc2 = nup if nuc==.&max_nuc<2
-// drop if nuc==.&max_nuc==2
-// by id: replace nuc2 = _n if nuc2!=.
-//
-// by id: egen max_nuc2 = max(nuc2)
-//
-// by id: drop if max_nuc2==3&nuc==.&nup>1
-//
-// by id: replace nuc2 = _n if nuc2!=.
-// drop max_nuc2
-// by id: egen max_nuc2 = max(nuc2)
-//
-// gen Bdays = Ldays
-// replace Bdays= real_days_1 if nuc==.
-//
-// quietly do "./LOWER_PLUS.do"
+use "./MS96.dta", clear
+
+gen nuc2 = nuc
+by id: replace nuc2 = nup if nuc==.&max_nuc<2
+drop if nuc==.&max_nuc==2
+by id: replace nuc2 = _n if nuc2!=.
+
+by id: egen max_nuc2 = max(nuc2)
+
+by id: drop if max_nuc2==3&nuc==.&nup>1
+
+by id: replace nuc2 = _n if nuc2!=.
+drop max_nuc2
+by id: egen max_nuc2 = max(nuc2)
+
+gen Bdays = Ldays
+replace Bdays= real_days_1 if nuc==.
+
+quietly do "./LOWER_PLUS.do"
 
 // log using ./results/table_lower_plus.log,replace
-// log on
-// ****** STU *****************************
-// sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
-// log off
+log on
+****** STU *****************************
+sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
+log off
 
-// * Export spells to a csv for plots
-// gen yin = year(dtin)
-// gen n_spell_u=nuc2
-// export delimited Bdays n_spell_u yin using "./results/STU96.csv", replace
+* Export spells to a csv for plots
+gen yin = year(dtin)
+gen n_spell_u=nuc2
+export delimited Bdays n_spell_u yin using "./results/STU96.csv", replace
 
 
 ********************************************************************************
@@ -201,9 +223,19 @@ log on
 sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 log off
 
+gen blank_type = "quit" if U_ghost==1&quit==1&recall==0
+replace blank_type = "SE" if U_ghost==1&self_emp==1&recall==0
+replace blank_type = "short" if U_ghost==1&short_emp==1&recall==0
+replace blank_type = "recall" if U_ghost==1&recall==1
+replace blank_type ="other" if U_ghost==1&recall==0&quit==0&self_emp==0&short_emp==0
+// log using ./results/table_upper.log,replace
+tab blank_type
+// log close
+
 * Export spells to a csv for plots
 gen yin = year(dtin)
-export delimited real_days_1 n_spell_u yin using "./results/Upper96.csv", replace
+replace U_ghost=0 if U_ghost==.
+export delimited real_days_1 n_spell_u yin blank_type U_ghost using "./results/Upper96.csv", replace
 
 ********************************************************************************
 // Non-Employment
