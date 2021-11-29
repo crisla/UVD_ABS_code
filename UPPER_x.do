@@ -106,7 +106,7 @@ replace spell_d = 0 if nup==1
 
 gen age2 = age^2
 
-reg lreal_days_1 sex_d i.educ2 spell_d age age2
+reg lreal_days_1 sex_d i.educ2 spell_d age
 
 predict res, r
 replace res=0 if res==.

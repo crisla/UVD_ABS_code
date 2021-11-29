@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count_
+> college.log
+  log type:  text
+ opened on:  29 Nov 2021, 12:52:19
+
+. tab max_nup college
+
+           |        college
+   max_nup |         0          1 |     Total
+-----------+----------------------+----------
+         0 |   206,195     49,491 |   255,686 
+         1 |   121,137     25,870 |   147,007 
+         2 |   286,018     50,210 |   336,228 
+-----------+----------------------+----------
+     Total |   613,350    125,571 |   738,921 
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count_
+> college.log
+  log type:  text
+ closed on:  29 Nov 2021, 12:52:23
+---------------------------------------------------------------------------------

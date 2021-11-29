@@ -105,6 +105,10 @@ drop if age<25|age>50
 sort id jobcount
 by id: gen future = state[_n+1]
 
+* Sample selection -1996
+drop if (dtin < td(01jan1996)&state==state2)| (dtout < td(01jan1996)&state!=state2)
+
+
 *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 *-*-*-*-*-*-*-*- Censored: belongs to Lower Bound -*-*-*-*-*-*-*-*-*-
 
@@ -140,7 +144,7 @@ replace max_nup = 0 if max_nup  ==.
 
 ********************************************************************************
 // Won't be in either of them
-drop if censored==0&upper==0
+// drop if censored==0&upper==0
 
 //Will be in either of those
 drop if nuc>2&nup>2
@@ -150,8 +154,8 @@ drop max_nup max_nuc
 by id: egen max_nup = count(nup)
 by id: egen max_nuc = count(nuc)
 
-// to get number of individuals with less than 1 spelss
-tab max_nup if id!=id[_n-1]&max_nup>0 
+// to get number of individuals with less than 1 spell
+tab max_nup if id!=id[_n-1]
 
 // Missing information on days (?)
 replace nuc=. if Ldays==.&max_nuc==2

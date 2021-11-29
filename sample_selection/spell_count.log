@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count.
+> log
+  log type:  text
+ opened on:  27 Nov 2021, 14:38:03
+
+. tab max_nup 
+
+    max_nup |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |    255,686       34.60       34.60
+          1 |    147,007       19.89       54.50
+          2 |    336,228       45.50      100.00
+------------+-----------------------------------
+      Total |    738,921      100.00
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count.
+> log
+  log type:  text
+ closed on:  27 Nov 2021, 14:38:04
+---------------------------------------------------------------------------------
