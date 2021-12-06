@@ -1,0 +1,39 @@
+-----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/descriptive_stats_stu_ind_13.log
+  log type:  text
+ opened on:   1 Dec 2021, 18:40:40
+
+. tab ind_short
+
+                              ind_short |      Freq.     Percent        Cum.
+----------------------------------------+-----------------------------------
+                                     NA |     15,794        4.75        4.75
+                            Agriculture |      7,924        2.38        7.13
+                             Extractive |        444        0.13        7.26
+                 Manufactures (primary) |     12,200        3.67       10.93
+               Manufactures (machinery) |     14,016        4.21       15.14
+       Manufactures (detail and repair) |      3,304        0.99       16.14
+        Energy, gas, residual treatment |      1,710        0.51       16.65
+                           Construction |     64,451       19.37       36.02
+                     Retail and repairs |     44,573       13.40       49.42
+                  Transport and storage |     13,073        3.93       53.35
+                            Hospitality |     42,280       12.71       66.06
+          Communication and programming |      6,451        1.94       68.00
+                              Financial |      1,916        0.58       68.57
+                             Real State |      1,338        0.40       68.98
+   Professional and scientific services |     11,783        3.54       72.52
+Auxiliary services (cleaning, gardening |     37,755       11.35       83.87
+                  Public Administration |     13,553        4.07       87.94
+                              Education |     10,770        3.24       91.18
+             Health and Social Services |     15,283        4.59       95.77
+                         Other Services |     14,066        4.23      100.00
+----------------------------------------+-----------------------------------
+                                  Total |    332,684      100.00
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/descriptive_stats_stu_ind_13.log
+  log type:  text
+ closed on:   1 Dec 2021, 18:40:43
+-----------------------------------------------------------------------------------------

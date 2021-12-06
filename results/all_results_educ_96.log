@@ -1,18 +1,15 @@
----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.l
-> og
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.log
   log type:  text
- opened on:  26 Nov 2021, 20:51:52
+ opened on:  30 Nov 2021, 12:13:12
 
 . 
 . 
 . 
-. *******************************************************************************
-> *
+. ********************************************************************************
 . // calculating uncensored (Spell Number correction + STU)
-. *******************************************************************************
-> *
+. ********************************************************************************
 . use "./MS96.dta", clear
 
 . 
@@ -26,11 +23,15 @@
 . gen n_spell_u=nup
 
 . 
+. replace ed_d4=0 if educ2==.
+(19,224 real changes made)
+
+. 
 . preserve
 
 . 
 . drop if ed_d4==0
-(552,230 observations deleted)
+(571,454 observations deleted)
 
 . 
 . quietly do "./UPPER.do"
@@ -40,58 +41,54 @@
 (log already on)
 
 . ****** STU+Spell Adj, college *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
-> _b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e
->  lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig
+> _c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
-        mu_y |    120,226    196.6739           0   196.6739   196.6739
-       sig_y |    120,226    125476.8           0   125476.8   125476.8
-       sig_c |    120,226     52229.3           0    52229.3    52229.3
-       sig_e |    120,226    59697.75           0   59697.75   59697.75
-       sig_b |    120,226     13549.7           0    13549.7    13549.7
+        mu_y |    101,002    197.4635           0   197.4635   197.4635
+       sig_y |    101,002    125761.4           0   125761.4   125761.4
+       sig_c |    101,002    52031.05           0   52031.05   52031.05
+       sig_e |    101,002    60689.89           0   60689.89   60689.89
+       sig_b |    101,002    13040.45           0   13040.45   13040.45
 -------------+---------------------------------------------------------
-      lsig_y |    120,226    2.983196           0   2.983196   2.983196
-      lsig_c |    120,226    1.644934           0   1.644934   1.644934
-      lsig_e |    120,226    .8738991           0   .8738991   .8738991
-      lsig_b |    120,226    .4643634           0   .4643634   .4643634
-      psig_c |    120,226    .4162468           0   .4162468   .4162468
+      lsig_y |    101,002    3.043909           0   3.043909   3.043909
+      lsig_c |    101,002    1.644934           0   1.644934   1.644934
+      lsig_e |    101,002    .9482671           0   .9482671   .9482671
+      lsig_b |    101,002    .4507081           0   .4507081   .4507081
+      psig_c |    101,002    .4137283           0   .4137283   .4137283
 -------------+---------------------------------------------------------
-      psig_e |    120,226    .4757674           0   .4757674   .4757674
-      psig_b |    120,226    .1079858           0   .1079858   .1079858
-     plsig_c |    120,226    .5513998           0   .5513998   .5513998
-     plsig_e |    120,226    .2929405           0   .2929405   .2929405
-     plsig_b |    120,226    .1556597           0   .1556597   .1556597
+      psig_e |    101,002    .4825797           0   .4825797   .4825797
+      psig_b |    101,002     .103692           0    .103692    .103692
+     plsig_c |    101,002    .5404018           0   .5404018   .5404018
+     plsig_e |    101,002    .3115294           0   .3115294   .3115294
+     plsig_b |    101,002    .1480688           0   .1480688   .1480688
 -------------+---------------------------------------------------------
-     lsig_y2 |    120,226    2.983197           0   2.983197   2.983197
-       sig_x |    120,226    .0168245           0   .0168245   .0168245
-      lsig_c |    120,226    1.644934           0   1.644934   1.644934
-     lsig_e2 |    120,226    .8402423           0   .8402423   .8402423
-     lsig_b2 |    120,226    .4811959           0   .4811959   .4811959
+     lsig_y2 |    101,002    3.043908           0   3.043908   3.043908
+       sig_x |    101,002    .0214026           0   .0214026   .0214026
+      lsig_c |    101,002    1.644934           0   1.644934   1.644934
+     lsig_e2 |    101,002    .9054528           0   .9054528   .9054528
+     lsig_b2 |    101,002    .4721181           0   .4721181   .4721181
 -------------+---------------------------------------------------------
-     lpsig_x |    120,226    .0056398           0   .0056398   .0056398
-     lpsig_e |    120,226    .2816584           0   .2816584   .2816584
-     lpsig_b |    120,226    .1613021           0   .1613021   .1613021
+     lpsig_x |    101,002    .0070313           0   .0070313   .0070313
+     lpsig_e |    101,002     .297464           0    .297464    .297464
+     lpsig_b |    101,002    .1551027           0   .1551027   .1551027
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.l
-> og
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.log
   log type:  text
- paused on:  26 Nov 2021, 20:52:10
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
+ paused on:  30 Nov 2021, 12:13:53
+-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.l
-> og
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.log
   log type:  text
-resumed on:  26 Nov 2021, 20:52:22
+resumed on:  30 Nov 2021, 12:14:03
 
 . ****** STU+Spell Adj, no college *****************************
-. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig
-> _b plsig_c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e
->  lpsig_b
+. sum mu_y sig_y sig_c sig_e sig_b lsig_y lsig_c lsig_e lsig_b psig_c psig_e psig_b plsig
+> _c plsig_e plsig_b lsig_y2 sig_x lsig_c lsig_e2 lsig_b2 lpsig_x lpsig_e lpsig_b
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
@@ -125,8 +122,7 @@ resumed on:  26 Nov 2021, 20:52:22
 
 . log off
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.l
-> og
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/results/all_results_educ_96.log
   log type:  text
- paused on:  26 Nov 2021, 20:52:28
----------------------------------------------------------------------------------
+ paused on:  30 Nov 2021, 12:14:22
+-----------------------------------------------------------------------------------------

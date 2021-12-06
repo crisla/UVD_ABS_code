@@ -1,4 +1,4 @@
-log using ./results/descriptive_stats_96_history.log, replace
+log using ./results/means_and_variances.log, replace
 log off
 
 use "./MS96.dta", clear
@@ -12,13 +12,16 @@ quietly do "./UPPER.do"
 
 sort id nup
 
-drop if state_past!="T"&state_past!="P"
+//drop if state_past!="T"&state_past!="P"
 by id: gen history = state_past[1]+state_past[2]
-drop if length(history)<2
+//drop if length(history)<2
+replace history = "" if length(history)<2
+gen TT =(history=="TT")
 
 gen std_i = sig_i^(0.5)
 
 gen college = (educ2==4)
+replace college=0 if educ2==.
 
 log on
 
@@ -26,10 +29,16 @@ log on
 * Sex (0=women)
 tab sex_d, sum(mu_i)
 tab sex_d, sum(std_i)
+tab sex_d, sum(TT)
 
 * Education
 tab college, sum(mu_i)
 tab college, sum(std_i)
+tab college, sum(TT)
+
+log close
+
+log using ./results/descriptive_stats_96_history.log, replace
 
 * 2: Conditional on history * * * * * * * * * * * * * *
 tab history, sum(mu_i)

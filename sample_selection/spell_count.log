@@ -1,9 +1,8 @@
----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count.
-> log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count.log
   log type:  text
- opened on:  27 Nov 2021, 14:38:03
+ opened on:  30 Nov 2021, 13:16:19
 
 . tab max_nup 
 
@@ -17,8 +16,7 @@
 
 . log close
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count.
-> log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count.log
   log type:  text
- closed on:  27 Nov 2021, 14:38:04
----------------------------------------------------------------------------------
+ closed on:  30 Nov 2021, 13:16:23
+-----------------------------------------------------------------------------------------
