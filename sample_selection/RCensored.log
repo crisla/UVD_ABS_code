@@ -1,0 +1,49 @@
+-----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/table_lower_plus.log
+  log type:  text
+ opened on:   6 Jun 2022, 16:59:54
+
+. 
+. tabstat Rcensored, s(sum)
+
+    variable |       sum
+-------------+----------
+   Rcensored |     22666
+------------------------
+
+. 
+. sum Rcensored if id!=id[_n+1]
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+   Rcensored |    492,116    .0460582    .2096115          0          1
+
+. 
+. tab obs_ltu_rcensored if id!=id[_n+1]&max_nuc==1
+
+obs_ltu_rce |
+     nsored |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |    135,486       94.08       94.08
+          1 |      8,530        5.92      100.00
+------------+-----------------------------------
+      Total |    144,016      100.00
+
+. 
+. tab obs_stu_rcensored if id!=id[_n+1]&max_nup==1
+
+obs_stu_rce |
+     nsored |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |    140,666       95.69       95.69
+          1 |      6,341        4.31      100.00
+------------+-----------------------------------
+      Total |    147,007      100.00
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/table_lower_plus.log
+  log type:  text
+ closed on:   6 Jun 2022, 16:59:58
+-----------------------------------------------------------------------------------------
