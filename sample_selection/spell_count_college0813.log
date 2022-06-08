@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count
+> _college0813.log
+  log type:  text
+ opened on:   8 Jun 2022, 12:50:04
+
+. tab max_nup ed_d4
+
+           |  educ2==     4.0000
+   max_nup |         0          1 |     Total
+-----------+----------------------+----------
+         0 |   380,815     87,145 |   467,960 
+         1 |    96,503     20,059 |   116,562 
+         2 |   144,227     22,115 |   166,342 
+-----------+----------------------+----------
+     Total |   621,545    129,319 |   750,864 
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count
+> _college0813.log
+  log type:  text
+ closed on:   8 Jun 2022, 12:50:04
+--------------------------------------------------------------------------------

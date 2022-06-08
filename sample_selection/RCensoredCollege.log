@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensoredCo
+> llege.log
+  log type:  text
+ opened on:   8 Jun 2022, 15:30:09
+
+. replace ed_d4=0 if ed_d4==.
+(55,042 real changes made)
+
+. tabstat Rcensored, by(ed_d4) s(sum)
+
+Summary for variables: Rcensored
+     by categories of: ed_d4 (educ2==     4.0000)
+
+   ed_d4 |       sum
+---------+----------
+       0 |     19315
+       1 |      3351
+---------+----------
+   Total |     22666
+--------------------
+
+. sum Rcensored if id!=id[_n+1]
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+   Rcensored |    492,116    .0460582    .2096115          0          1
+
+. tab obs_ltu_rcensored ed_d4 if id!=id[_n+1]&max_nuc==1
+
+obs_ltu_rc |  educ2==     4.0000
+   ensored |         0          1 |     Total
+-----------+----------------------+----------
+         0 |   112,453     23,033 |   135,486 
+         1 |     7,335      1,195 |     8,530 
+-----------+----------------------+----------
+     Total |   119,788     24,228 |   144,016 
+
+. tab obs_stu_rcensored ed_d4 if id!=id[_n+1]&max_nup==1
+
+obs_stu_rc |  educ2==     4.0000
+   ensored |         0          1 |     Total
+-----------+----------------------+----------
+         0 |   115,597     25,069 |   140,666 
+         1 |     5,395        946 |     6,341 
+-----------+----------------------+----------
+     Total |   120,992     26,015 |   147,007 
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensoredCo
+> llege.log
+  log type:  text
+ closed on:   8 Jun 2022, 15:30:18
+--------------------------------------------------------------------------------
