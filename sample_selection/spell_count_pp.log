@@ -1,0 +1,29 @@
+-----------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count_pp.log
+  log type:  text
+ opened on:  10 Jun 2022, 15:33:45
+
+. sum max_nup if id!=id[_n+1]&max_nup>1, d
+
+                           max_nup
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            2              2
+ 5%            2              2
+10%            2              2       Obs             336,228
+25%            2              2       Sum of Wgt.     336,228
+
+50%            4                      Mean           5.519838
+                        Largest       Std. Dev.      5.046945
+75%            7            165
+90%           11            176       Variance       25.47166
+95%           14            251       Skewness        5.32769
+99%           25            271       Kurtosis       98.38628
+
+. log close
+      name:  <unnamed>
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/spell_count_pp.log
+  log type:  text
+ closed on:  10 Jun 2022, 15:33:47
+-----------------------------------------------------------------------------------------
