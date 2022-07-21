@@ -1,11 +1,9 @@
---------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored96
-> .log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored96.log
   log type:  text
- opened on:   8 Jun 2022, 12:21:42
+ opened on:  13 Jun 2022, 17:14:42
 
-. 
 . tabstat Rcensored, s(sum)
 
     variable |       sum
@@ -13,14 +11,12 @@
    Rcensored |     22666
 ------------------------
 
-. 
 . sum Rcensored if id!=id[_n+1]
 
     Variable |        Obs        Mean    Std. Dev.       Min        Max
 -------------+---------------------------------------------------------
    Rcensored |    492,116    .0460582    .2096115          0          1
 
-. 
 . tab obs_ltu_rcensored if id!=id[_n+1]&max_nuc==1
 
 obs_ltu_rce |
@@ -31,7 +27,6 @@ obs_ltu_rce |
 ------------+-----------------------------------
       Total |    144,016      100.00
 
-. 
 . tab obs_stu_rcensored if id!=id[_n+1]&max_nup==1
 
 obs_stu_rce |
@@ -42,10 +37,18 @@ obs_stu_rce |
 ------------+-----------------------------------
       Total |    147,007      100.00
 
+. tab obs_stu_rcensored if id!=id[_n+1]&max_nup==0
+
+obs_stu_rce |
+     nsored |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          1 |      8,881      100.00      100.00
+------------+-----------------------------------
+      Total |      8,881      100.00
+
 . log close
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored96
-> .log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored96.log
   log type:  text
- closed on:   8 Jun 2022, 12:21:44
---------------------------------------------------------------------------------
+ closed on:  13 Jun 2022, 17:14:44
+-----------------------------------------------------------------------------------------

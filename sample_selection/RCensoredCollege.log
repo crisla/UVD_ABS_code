@@ -1,9 +1,8 @@
---------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensoredCo
-> llege.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensoredCollege.log
   log type:  text
- opened on:   8 Jun 2022, 15:30:09
+ opened on:  13 Jun 2022, 17:14:44
 
 . replace ed_d4=0 if ed_d4==.
 (55,042 real changes made)
@@ -47,10 +46,18 @@ obs_stu_rc |  educ2==     4.0000
 -----------+----------------------+----------
      Total |   120,992     26,015 |   147,007 
 
+. tab obs_stu_rcensored ed_d4 if id!=id[_n+1]&max_nup==0
+
+obs_stu_rc |  educ2==     4.0000
+   ensored |         0          1 |     Total
+-----------+----------------------+----------
+         1 |     7,708      1,173 |     8,881 
+-----------+----------------------+----------
+     Total |     7,708      1,173 |     8,881 
+
 . log close
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensoredCo
-> llege.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensoredCollege.log
   log type:  text
- closed on:   8 Jun 2022, 15:30:18
---------------------------------------------------------------------------------
+ closed on:  13 Jun 2022, 17:14:55
+-----------------------------------------------------------------------------------------

@@ -1,9 +1,8 @@
---------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored02
-> 07.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored0207.log
   log type:  text
- opened on:   8 Jun 2022, 12:29:53
+ opened on:  13 Jun 2022, 17:16:20
 
 . 
 . tabstat Rcensored, s(sum)
@@ -31,7 +30,6 @@ obs_ltu_rce |
 ------------+-----------------------------------
       Total |     99,156      100.00
 
-. 
 . tab obs_stu_rcensored if id!=id[_n+1]&max_nup==1
 
 obs_stu_rce |
@@ -42,10 +40,18 @@ obs_stu_rce |
 ------------+-----------------------------------
       Total |    127,106      100.00
 
+. tab obs_stu_rcensored if id!=id[_n+1]&max_nup==0
+
+obs_stu_rce |
+     nsored |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          1 |        765      100.00      100.00
+------------+-----------------------------------
+      Total |        765      100.00
+
 . log close
       name:  <unnamed>
-       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored02
-> 07.log
+       log:  /share/home/clafuent/MCVL/UVD_ABS_code/sample_selection/RCensored0207.log
   log type:  text
- closed on:   8 Jun 2022, 12:29:54
---------------------------------------------------------------------------------
+ closed on:  13 Jun 2022, 17:16:21
+-----------------------------------------------------------------------------------------
